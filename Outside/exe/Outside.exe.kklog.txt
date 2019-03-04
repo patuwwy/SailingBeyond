@@ -1,0 +1,9 @@
+main: initializing...
+main: all main components initialized.
+main: reading parameter block...
+main: initialization done
+main: video encoder initialized.
+video: capturing at 1920x1080
+video/opengl: wglSwapIntervalEXT supported
+video/opengl: FBOs supported
+timing: application is hammering timer calls, advancing time. (frame = 2719)

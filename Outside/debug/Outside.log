@@ -1,0 +1,1902 @@
+﻿  DEBUG
+  ext.cpp
+  intro.cpp
+  main_win_deb.cpp
+  Generating Code...
+LINK : warning LNK4044: unrecognized option '/CRINKLER'; ignored
+  
+  Starting pass 1
+  Processed /DEFAULTLIB:LIBCMT
+  Processed /DEFAULTLIB:OLDNAMES
+  Processed /DEFAULTLIB:libcpmt
+  
+  Searching libraries
+      Searching glew32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\opengl32.lib:
+        Found __imp__wglGetProcAddress@4
+          Referenced in ext.obj
+          Loaded opengl32.lib(OPENGL32.dll)
+        Found __imp__glBindTexture@8
+          Referenced in intro.obj
+          Loaded opengl32.lib(OPENGL32.dll)
+        Found __imp__glGenTextures@8
+          Referenced in intro.obj
+          Loaded opengl32.lib(OPENGL32.dll)
+        Found __imp__glRects@16
+          Referenced in intro.obj
+          Loaded opengl32.lib(OPENGL32.dll)
+        Found __imp__glTexParameteri@12
+          Referenced in intro.obj
+          Loaded opengl32.lib(OPENGL32.dll)
+        Found __imp__wglCreateContext@4
+          Referenced in main_win_deb.obj
+          Loaded opengl32.lib(OPENGL32.dll)
+        Found __imp__wglDeleteContext@4
+          Referenced in main_win_deb.obj
+          Loaded opengl32.lib(OPENGL32.dll)
+        Found __imp__wglMakeCurrent@8
+          Referenced in main_win_deb.obj
+          Loaded opengl32.lib(OPENGL32.dll)
+        Found __imp__glViewport@16
+          Referenced in main_win_deb.obj
+          Loaded opengl32.lib(OPENGL32.dll)
+        Found __IMPORT_DESCRIPTOR_OPENGL32
+          Referenced in opengl32.lib(OPENGL32.dll)
+          Referenced in opengl32.lib(OPENGL32.dll)
+          Referenced in opengl32.lib(OPENGL32.dll)
+          Referenced in opengl32.lib(OPENGL32.dll)
+          Referenced in opengl32.lib(OPENGL32.dll)
+          Referenced in opengl32.lib(OPENGL32.dll)
+          Referenced in opengl32.lib(OPENGL32.dll)
+          Referenced in opengl32.lib(OPENGL32.dll)
+          Referenced in opengl32.lib(OPENGL32.dll)
+          Loaded opengl32.lib(OPENGL32.dll)
+        Found __NULL_IMPORT_DESCRIPTOR
+          Referenced in opengl32.lib(OPENGL32.dll)
+          Loaded opengl32.lib(OPENGL32.dll)
+        Found OPENGL32_NULL_THUNK_DATA
+          Referenced in opengl32.lib(OPENGL32.dll)
+          Loaded opengl32.lib(OPENGL32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\glu32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winmm.lib:
+        Found __imp__timeGetTime@0
+          Referenced in main_win_deb.obj
+          Loaded winmm.lib(WINMM.dll)
+        Found __IMPORT_DESCRIPTOR_WINMM
+          Referenced in winmm.lib(WINMM.dll)
+          Loaded winmm.lib(WINMM.dll)
+        Found WINMM_NULL_THUNK_DATA
+          Referenced in winmm.lib(WINMM.dll)
+          Loaded winmm.lib(WINMM.dll)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+        Found __imp__CreateFileA@28
+          Referenced in intro.obj
+          Referenced in main_win_deb.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__ReadFile@20
+          Referenced in intro.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__CloseHandle@4
+          Referenced in intro.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__Sleep@4
+          Referenced in main_win_deb.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetModuleHandleA@4
+          Referenced in main_win_deb.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__ReadDirectoryChangesW@32
+          Referenced in main_win_deb.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __IMPORT_DESCRIPTOR_KERNEL32
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found KERNEL32_NULL_THUNK_DATA
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Loaded kernel32.lib(KERNEL32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+        Found __imp__GetAsyncKeyState@4
+          Referenced in intro.obj
+          Referenced in main_win_deb.obj
+          Loaded user32.lib(USER32.dll)
+        Found __imp__MessageBoxA@16
+          Referenced in intro.obj
+          Referenced in main_win_deb.obj
+          Loaded user32.lib(USER32.dll)
+        Found __imp__TranslateMessage@4
+          Referenced in main_win_deb.obj
+          Loaded user32.lib(USER32.dll)
+        Found __imp__DispatchMessageA@4
+          Referenced in main_win_deb.obj
+          Loaded user32.lib(USER32.dll)
+        Found __imp__PeekMessageA@20
+          Referenced in main_win_deb.obj
+          Loaded user32.lib(USER32.dll)
+        Found __imp__DefWindowProcA@16
+          Referenced in main_win_deb.obj
+          Loaded user32.lib(USER32.dll)
+        Found __imp__PostQuitMessage@4
+          Referenced in main_win_deb.obj
+          Loaded user32.lib(USER32.dll)
+        Found __imp__RegisterClassA@4
+          Referenced in main_win_deb.obj
+          Loaded user32.lib(USER32.dll)
+        Found __imp__UnregisterClassA@8
+          Referenced in main_win_deb.obj
+          Loaded user32.lib(USER32.dll)
+        Found __imp__CreateWindowExA@48
+          Referenced in main_win_deb.obj
+          Loaded user32.lib(USER32.dll)
+        Found __imp__DestroyWindow@4
+          Referenced in main_win_deb.obj
+          Loaded user32.lib(USER32.dll)
+        Found __imp__GetSystemMetrics@4
+          Referenced in main_win_deb.obj
+          Loaded user32.lib(USER32.dll)
+        Found __imp__GetDC@4
+          Referenced in main_win_deb.obj
+          Loaded user32.lib(USER32.dll)
+        Found __imp__ReleaseDC@8
+          Referenced in main_win_deb.obj
+          Loaded user32.lib(USER32.dll)
+        Found __imp__SetWindowTextA@8
+          Referenced in main_win_deb.obj
+          Loaded user32.lib(USER32.dll)
+        Found __imp__AdjustWindowRect@12
+          Referenced in main_win_deb.obj
+          Loaded user32.lib(USER32.dll)
+        Found __imp__ShowCursor@4
+          Referenced in main_win_deb.obj
+          Loaded user32.lib(USER32.dll)
+        Found __imp__ChangeDisplaySettingsA@8
+          Referenced in main_win_deb.obj
+          Loaded user32.lib(USER32.dll)
+        Found __IMPORT_DESCRIPTOR_USER32
+          Referenced in user32.lib(USER32.dll)
+          Referenced in user32.lib(USER32.dll)
+          Referenced in user32.lib(USER32.dll)
+          Referenced in user32.lib(USER32.dll)
+          Referenced in user32.lib(USER32.dll)
+          Referenced in user32.lib(USER32.dll)
+          Referenced in user32.lib(USER32.dll)
+          Referenced in user32.lib(USER32.dll)
+          Referenced in user32.lib(USER32.dll)
+          Referenced in user32.lib(USER32.dll)
+          Referenced in user32.lib(USER32.dll)
+          Referenced in user32.lib(USER32.dll)
+          Referenced in user32.lib(USER32.dll)
+          Referenced in user32.lib(USER32.dll)
+          Referenced in user32.lib(USER32.dll)
+          Referenced in user32.lib(USER32.dll)
+          Referenced in user32.lib(USER32.dll)
+          Referenced in user32.lib(USER32.dll)
+          Loaded user32.lib(USER32.dll)
+        Found USER32_NULL_THUNK_DATA
+          Referenced in user32.lib(USER32.dll)
+          Loaded user32.lib(USER32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+        Found __imp__ChoosePixelFormat@8
+          Referenced in main_win_deb.obj
+          Loaded gdi32.lib(GDI32.dll)
+        Found __imp__CreateSolidBrush@4
+          Referenced in main_win_deb.obj
+          Loaded gdi32.lib(GDI32.dll)
+        Found __imp__SetPixelFormat@12
+          Referenced in main_win_deb.obj
+          Loaded gdi32.lib(GDI32.dll)
+        Found __imp__SwapBuffers@4
+          Referenced in main_win_deb.obj
+          Loaded gdi32.lib(GDI32.dll)
+        Found __IMPORT_DESCRIPTOR_GDI32
+          Referenced in gdi32.lib(GDI32.dll)
+          Referenced in gdi32.lib(GDI32.dll)
+          Referenced in gdi32.lib(GDI32.dll)
+          Referenced in gdi32.lib(GDI32.dll)
+          Loaded gdi32.lib(GDI32.dll)
+        Found GDI32_NULL_THUNK_DATA
+          Referenced in gdi32.lib(GDI32.dll)
+          Loaded gdi32.lib(GDI32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+      Searching debug\bass.lib:
+        Found _BASS_Init@20
+          Referenced in main_win_deb.obj
+          Loaded bass.lib(bass.dll)
+        Found _BASS_Free@0
+          Referenced in main_win_deb.obj
+          Loaded bass.lib(bass.dll)
+        Found _BASS_Start@0
+          Referenced in main_win_deb.obj
+          Loaded bass.lib(bass.dll)
+        Found _BASS_Stop@0
+          Referenced in main_win_deb.obj
+          Loaded bass.lib(bass.dll)
+        Found _BASS_Pause@0
+          Referenced in main_win_deb.obj
+          Loaded bass.lib(bass.dll)
+        Found _BASS_StreamCreateFile@28
+          Referenced in main_win_deb.obj
+          Loaded bass.lib(bass.dll)
+        Found _BASS_ChannelBytes2Seconds@12
+          Referenced in main_win_deb.obj
+          Loaded bass.lib(bass.dll)
+        Found _BASS_ChannelSeconds2Bytes@12
+          Referenced in main_win_deb.obj
+          Loaded bass.lib(bass.dll)
+        Found _BASS_ChannelPlay@8
+          Referenced in main_win_deb.obj
+          Loaded bass.lib(bass.dll)
+        Found _BASS_ChannelGetLength@8
+          Referenced in main_win_deb.obj
+          Loaded bass.lib(bass.dll)
+        Found _BASS_ChannelSetPosition@16
+          Referenced in main_win_deb.obj
+          Loaded bass.lib(bass.dll)
+        Found _BASS_ChannelGetPosition@8
+          Referenced in main_win_deb.obj
+          Loaded bass.lib(bass.dll)
+        Found __IMPORT_DESCRIPTOR_bass
+          Referenced in bass.lib(bass.dll)
+          Referenced in bass.lib(bass.dll)
+          Referenced in bass.lib(bass.dll)
+          Referenced in bass.lib(bass.dll)
+          Referenced in bass.lib(bass.dll)
+          Referenced in bass.lib(bass.dll)
+          Referenced in bass.lib(bass.dll)
+          Referenced in bass.lib(bass.dll)
+          Referenced in bass.lib(bass.dll)
+          Referenced in bass.lib(bass.dll)
+          Referenced in bass.lib(bass.dll)
+          Referenced in bass.lib(bass.dll)
+          Loaded bass.lib(bass.dll)
+        Found bass_NULL_THUNK_DATA
+          Referenced in bass.lib(bass.dll)
+          Loaded bass.lib(bass.dll)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\LIBCMT.lib:
+        Found @__security_check_cookie@4
+          Referenced in intro.obj
+          Referenced in main_win_deb.obj
+          Loaded LIBCMT.lib(_secchk_.obj)
+        Found ___security_cookie
+          Referenced in intro.obj
+          Referenced in main_win_deb.obj
+          Referenced in LIBCMT.lib(_secchk_.obj)
+          Loaded LIBCMT.lib(gs_cookie.obj)
+        Found __fltused
+          Referenced in intro.obj
+          Referenced in main_win_deb.obj
+          Loaded LIBCMT.lib(fltused.obj)
+        Found __chkstk
+          Referenced in main_win_deb.obj
+          Loaded LIBCMT.lib(chkstk.obj)
+        Found _WinMainCRTStartup
+          Loaded LIBCMT.lib(exe_winmain.obj)
+        Found ___report_gsfailure
+          Referenced in LIBCMT.lib(_secchk_.obj)
+          Loaded LIBCMT.lib(gs_report.obj)
+        Found _atexit
+          Referenced in LIBCMT.lib(exe_winmain.obj)
+          Loaded LIBCMT.lib(utility.obj)
+        Found ___security_init_cookie
+          Referenced in LIBCMT.lib(exe_winmain.obj)
+          Loaded LIBCMT.lib(gs_support.obj)
+        Found __matherr
+          Referenced in LIBCMT.lib(exe_winmain.obj)
+          Loaded LIBCMT.lib(matherr.obj)
+        Found __get_startup_argv_mode
+          Referenced in LIBCMT.lib(exe_winmain.obj)
+          Referenced in LIBCMT.lib(utility.obj)
+          Loaded LIBCMT.lib(argv_mode.obj)
+        Found __get_startup_commit_mode
+          Referenced in LIBCMT.lib(exe_winmain.obj)
+          Loaded LIBCMT.lib(commit_mode.obj)
+        Found __get_startup_file_mode
+          Referenced in LIBCMT.lib(exe_winmain.obj)
+          Loaded LIBCMT.lib(file_mode.obj)
+        Found __get_startup_new_mode
+          Referenced in LIBCMT.lib(exe_winmain.obj)
+          Loaded LIBCMT.lib(new_mode.obj)
+        Found __get_startup_thread_locale_mode
+          Referenced in LIBCMT.lib(exe_winmain.obj)
+          Loaded LIBCMT.lib(thread_locale.obj)
+        Found "void __cdecl __scrt_initialize_type_info(void)" (?__scrt_initialize_type_info@@YAXXZ)
+          Referenced in LIBCMT.lib(exe_winmain.obj)
+          Loaded LIBCMT.lib(tncleanup.obj)
+        Found __should_initialize_environment
+          Referenced in LIBCMT.lib(exe_winmain.obj)
+          Loaded LIBCMT.lib(env_mode.obj)
+        Found __initialize_default_precision
+          Referenced in LIBCMT.lib(exe_winmain.obj)
+          Loaded LIBCMT.lib(default_precision.obj)
+        Found __initialize_invalid_parameter_handler
+          Referenced in LIBCMT.lib(exe_winmain.obj)
+          Loaded LIBCMT.lib(invalid_parameter_handler.obj)
+        Found __initialize_denormal_control
+          Referenced in LIBCMT.lib(exe_winmain.obj)
+          Loaded LIBCMT.lib(denormal_control.obj)
+        Found ___scrt_initialize_default_local_stdio_options
+          Referenced in LIBCMT.lib(exe_winmain.obj)
+          Loaded LIBCMT.lib(default_local_stdio_options.obj)
+        Found ___scrt_is_user_matherr_present
+          Referenced in LIBCMT.lib(exe_winmain.obj)
+          Loaded LIBCMT.lib(matherr_detection.obj)
+        Found ___scrt_get_dyn_tls_init_callback
+          Referenced in LIBCMT.lib(exe_winmain.obj)
+          Loaded LIBCMT.lib(dyn_tls_init.obj)
+        Found ___scrt_get_dyn_tls_dtor_callback
+          Referenced in LIBCMT.lib(exe_winmain.obj)
+          Loaded LIBCMT.lib(dyn_tls_dtor.obj)
+        Found ___scrt_get_show_window_mode
+          Referenced in LIBCMT.lib(exe_winmain.obj)
+          Loaded LIBCMT.lib(utility_desktop.obj)
+        Found __RTC_Initialize
+          Referenced in LIBCMT.lib(exe_winmain.obj)
+          Loaded LIBCMT.lib(_initsect_.obj)
+        Found @_guard_check_icall@4
+          Referenced in LIBCMT.lib(exe_winmain.obj)
+          Referenced in LIBCMT.lib(utility.obj)
+          Referenced in LIBCMT.lib(_initsect_.obj)
+          Loaded LIBCMT.lib(checkcfg.obj)
+        Found __SEH_epilog4
+          Referenced in LIBCMT.lib(exe_winmain.obj)
+          Referenced in LIBCMT.lib(utility.obj)
+          Loaded LIBCMT.lib(_sehprolg4_.obj)
+        Found ___xi_a
+          Referenced in LIBCMT.lib(exe_winmain.obj)
+          Loaded LIBCMT.lib(initializers.obj)
+  Processed /DEFAULTLIB:kernel32.lib
+   Processed /DISALLOWLIB:msvcrt.lib
+   Processed /DISALLOWLIB:msvcrtd.lib
+   Processed /DISALLOWLIB:libcmtd.lib
+   Processed /DISALLOWLIB:vcruntime.lib
+   Processed /DISALLOWLIB:vcruntimed.lib
+  Processed /DEFAULTLIB:libvcruntime.lib
+   Processed /DISALLOWLIB:libvcruntimed.lib
+   Processed /DISALLOWLIB:ucrtd.lib
+  Processed /DEFAULTLIB:libucrt.lib
+   Processed /DISALLOWLIB:libucrtd.lib
+        Found ___isa_available_init
+          Referenced in LIBCMT.lib(utility.obj)
+          Loaded LIBCMT.lib(_cpu_disp_.obj)
+        Found ___scrt_is_ucrt_dll_in_use
+          Referenced in LIBCMT.lib(utility.obj)
+          Loaded LIBCMT.lib(ucrt_detection.obj)
+        Found ___guard_check_icall_fptr
+          Referenced in LIBCMT.lib(checkcfg.obj)
+          Loaded LIBCMT.lib(guard_support.obj)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\libcpmt.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\libvcruntime.lib:
+        Found _memset
+          Referenced in main_win_deb.obj
+          Referenced in LIBCMT.lib(utility_desktop.obj)
+          Loaded libvcruntime.lib(memset.obj)
+        Found __except_handler4
+          Referenced in LIBCMT.lib(exe_winmain.obj)
+          Referenced in LIBCMT.lib(utility.obj)
+          Referenced in LIBCMT.lib(_sehprolg4_.obj)
+          Loaded libvcruntime.lib(_chandler4_.obj)
+        Found ___vcrt_initialize
+          Referenced in LIBCMT.lib(utility.obj)
+          Loaded libvcruntime.lib(initialization.obj)
+        Found ___std_type_info_destroy_list
+          Referenced in LIBCMT.lib(tncleanup.obj)
+          Loaded libvcruntime.lib(std_type_info.obj)
+        Found @_EH4_CallFilterFunc@8
+          Referenced in libvcruntime.lib(_chandler4_.obj)
+          Loaded libvcruntime.lib(_exsup4_.obj)
+        Found ___except_validate_context_record
+          Referenced in libvcruntime.lib(_chandler4_.obj)
+          Loaded libvcruntime.lib(jbcxrval.obj)
+        Found ___vcrt_initialize_ptd
+          Referenced in libvcruntime.lib(initialization.obj)
+          Loaded libvcruntime.lib(per_thread_data.obj)
+        Found ___vcrt_initialize_locks
+          Referenced in libvcruntime.lib(initialization.obj)
+          Loaded libvcruntime.lib(locks.obj)
+        Found ___vcrt_initialize_winapi_thunks
+          Referenced in libvcruntime.lib(initialization.obj)
+          Loaded libvcruntime.lib(winapi_downlevel.obj)
+        Found ___vcrt_initialize_pure_virtual_call_handler
+          Referenced in libvcruntime.lib(initialization.obj)
+          Loaded libvcruntime.lib(purevirt_data.obj)
+        Found ___unDName
+          Referenced in libvcruntime.lib(std_type_info.obj)
+          Loaded libvcruntime.lib(undname.obj)
+        Found __NLG_Notify
+          Referenced in libvcruntime.lib(_exsup4_.obj)
+          Loaded libvcruntime.lib(_exsup_.obj)
+        Found __purecall
+          Referenced in libvcruntime.lib(undname.obj)
+          Loaded libvcruntime.lib(purevirt.obj)
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86\libucrt.lib:
+        Found ___stdio_common_vsprintf_s
+          Referenced in main_win_deb.obj
+          Referenced in libvcruntime.lib(undname.obj)
+          Loaded libucrt.lib(output.obj)
+  Processed /DEFAULTLIB:uuid.lib
+        Found _terminate
+          Referenced in main_win_deb.obj
+          Referenced in LIBCMT.lib(utility_desktop.obj)
+          Loaded libucrt.lib(terminate.obj)
+        Found __seh_filter_exe
+          Referenced in LIBCMT.lib(exe_winmain.obj)
+          Loaded libucrt.lib(exception_filter.obj)
+        Found __set_app_type
+          Referenced in LIBCMT.lib(exe_winmain.obj)
+          Loaded libucrt.lib(report_runtime_error.obj)
+        Found ___setusermatherr
+          Referenced in LIBCMT.lib(exe_winmain.obj)
+          Loaded libucrt.lib(matherr.obj)
+        Found __configure_narrow_argv
+          Referenced in LIBCMT.lib(exe_winmain.obj)
+          Referenced in LIBCMT.lib(utility.obj)
+          Loaded libucrt.lib(argv_parsing.obj)
+        Found __initialize_narrow_environment
+          Referenced in LIBCMT.lib(exe_winmain.obj)
+          Referenced in LIBCMT.lib(utility.obj)
+          Loaded libucrt.lib(environment_initialization.obj)
+        Found __get_narrow_winmain_command_line
+          Referenced in LIBCMT.lib(exe_winmain.obj)
+          Loaded libucrt.lib(argv_winmain.obj)
+        Found __initterm
+          Referenced in LIBCMT.lib(exe_winmain.obj)
+          Loaded libucrt.lib(initterm.obj)
+        Found _exit
+          Referenced in LIBCMT.lib(exe_winmain.obj)
+          Loaded libucrt.lib(exit.obj)
+        Found __set_fmode
+          Referenced in LIBCMT.lib(exe_winmain.obj)
+          Loaded libucrt.lib(setmode.obj)
+        Found __configthreadlocale
+          Referenced in LIBCMT.lib(exe_winmain.obj)
+          Loaded libucrt.lib(wsetlocale.obj)
+        Found __set_new_mode
+          Referenced in LIBCMT.lib(exe_winmain.obj)
+          Loaded libucrt.lib(new_mode.obj)
+        Found ___p__commode
+          Referenced in LIBCMT.lib(exe_winmain.obj)
+          Loaded libucrt.lib(ncommode.obj)
+        Found __initialize_onexit_table
+          Referenced in LIBCMT.lib(utility.obj)
+          Loaded libucrt.lib(onexit.obj)
+        Found ___acrt_initialize
+          Referenced in LIBCMT.lib(utility.obj)
+          Loaded libucrt.lib(initialization.obj)
+        Found __controlfp_s
+          Referenced in LIBCMT.lib(default_precision.obj)
+          Loaded libucrt.lib(contrlfp.obj)
+        Found __free_base
+          Referenced in libucrt.lib(environment_initialization.obj)
+          Referenced in libucrt.lib(wsetlocale.obj)
+          Referenced in libucrt.lib(onexit.obj)
+          Referenced in libucrt.lib(initialization.obj)
+          Referenced in libvcruntime.lib(std_type_info.obj)
+          Referenced in libvcruntime.lib(per_thread_data.obj)
+          Referenced in libucrt.lib(output.obj)
+          Referenced in libucrt.lib(argv_parsing.obj)
+          Loaded libucrt.lib(free_base.obj)
+        Found __malloc_base
+          Referenced in libvcruntime.lib(std_type_info.obj)
+          Referenced in libucrt.lib(output.obj)
+          Referenced in libucrt.lib(wsetlocale.obj)
+          Loaded libucrt.lib(malloc_base.obj)
+        Found _strcpy_s
+          Referenced in libvcruntime.lib(std_type_info.obj)
+          Referenced in libucrt.lib(environment_initialization.obj)
+          Loaded libucrt.lib(strcpy_s.obj)
+        Found _abort
+          Referenced in libvcruntime.lib(per_thread_data.obj)
+          Referenced in libvcruntime.lib(purevirt.obj)
+          Referenced in libucrt.lib(terminate.obj)
+          Loaded libucrt.lib(abort.obj)
+        Found __calloc_base
+          Referenced in libvcruntime.lib(per_thread_data.obj)
+          Referenced in libucrt.lib(argv_parsing.obj)
+          Referenced in libucrt.lib(environment_initialization.obj)
+          Referenced in libucrt.lib(wsetlocale.obj)
+          Loaded libucrt.lib(calloc_base.obj)
+        Found _atol
+          Referenced in libvcruntime.lib(undname.obj)
+          Loaded libucrt.lib(atox.obj)
+        Found __invalid_parameter_noinfo
+          Referenced in libucrt.lib(new_mode.obj)
+          Referenced in libucrt.lib(contrlfp.obj)
+          Referenced in libucrt.lib(strcpy_s.obj)
+          Referenced in libucrt.lib(atox.obj)
+          Referenced in libucrt.lib(output.obj)
+          Referenced in libucrt.lib(argv_parsing.obj)
+          Referenced in libucrt.lib(setmode.obj)
+          Referenced in libucrt.lib(wsetlocale.obj)
+          Loaded libucrt.lib(invalid_parameter.obj)
+        Found _isdigit
+          Referenced in libucrt.lib(output.obj)
+          Loaded libucrt.lib(_ctype.obj)
+        Found _tolower
+          Referenced in libucrt.lib(output.obj)
+          Loaded libucrt.lib(tolower_toupper.obj)
+        Found __errno
+          Referenced in libucrt.lib(strcpy_s.obj)
+          Referenced in libucrt.lib(calloc_base.obj)
+          Referenced in libucrt.lib(atox.obj)
+          Referenced in libucrt.lib(tolower_toupper.obj)
+          Referenced in libucrt.lib(new_mode.obj)
+          Referenced in libucrt.lib(contrlfp.obj)
+          Referenced in libucrt.lib(free_base.obj)
+          Referenced in libucrt.lib(malloc_base.obj)
+          Referenced in libucrt.lib(output.obj)
+          Referenced in libucrt.lib(argv_parsing.obj)
+          Referenced in libucrt.lib(setmode.obj)
+          Referenced in libucrt.lib(wsetlocale.obj)
+          Loaded libucrt.lib(errno.obj)
+        Found _wcstol
+          Referenced in libucrt.lib(output.obj)
+          Loaded libucrt.lib(strtox.obj)
+        Found __mbtowc_l
+          Referenced in libucrt.lib(output.obj)
+          Loaded libucrt.lib(mbtowc.obj)
+        Found _wctomb_s
+          Referenced in libucrt.lib(output.obj)
+          Loaded libucrt.lib(wctomb.obj)
+        Found _wcsnlen
+          Referenced in libucrt.lib(output.obj)
+          Referenced in libucrt.lib(wsetlocale.obj)
+          Loaded libucrt.lib(strnlen.obj)
+        Found ___acrt_getptd
+          Referenced in libucrt.lib(mbtowc.obj)
+          Referenced in libucrt.lib(wctomb.obj)
+          Referenced in libucrt.lib(invalid_parameter.obj)
+          Referenced in libucrt.lib(_ctype.obj)
+          Referenced in libucrt.lib(tolower_toupper.obj)
+          Referenced in libucrt.lib(strtox.obj)
+          Referenced in libucrt.lib(output.obj)
+          Referenced in libucrt.lib(terminate.obj)
+          Referenced in libucrt.lib(wsetlocale.obj)
+          Referenced in libucrt.lib(atox.obj)
+          Loaded libucrt.lib(per_thread_data.obj)
+        Found ___acrt_update_locale_info
+          Referenced in libucrt.lib(strtox.obj)
+          Referenced in libucrt.lib(mbtowc.obj)
+          Referenced in libucrt.lib(wctomb.obj)
+          Referenced in libucrt.lib(output.obj)
+          Referenced in libucrt.lib(atox.obj)
+          Referenced in libucrt.lib(_ctype.obj)
+          Referenced in libucrt.lib(tolower_toupper.obj)
+          Loaded libucrt.lib(locale_update.obj)
+        Found ___acrt_fp_format
+          Referenced in libucrt.lib(output.obj)
+          Loaded libucrt.lib(cvt.obj)
+        Found __fputwc_nolock
+          Referenced in libucrt.lib(output.obj)
+          Loaded libucrt.lib(fputwc.obj)
+        Found __fileno
+          Referenced in libucrt.lib(output.obj)
+          Referenced in libucrt.lib(fputwc.obj)
+          Loaded libucrt.lib(fileno.obj)
+        Found __lock_file
+          Referenced in libucrt.lib(output.obj)
+          Referenced in libucrt.lib(fputwc.obj)
+          Loaded libucrt.lib(_file.obj)
+        Found __fputc_nolock
+          Referenced in libucrt.lib(output.obj)
+          Referenced in libucrt.lib(fputwc.obj)
+          Loaded libucrt.lib(fputc.obj)
+        Found __get_printf_count_output
+          Referenced in libucrt.lib(output.obj)
+          Loaded libucrt.lib(printf_count_output.obj)
+        Found ___acrt_stdio_begin_temporary_buffering_nolock
+          Referenced in libucrt.lib(output.obj)
+          Loaded libucrt.lib(_sftbuf.obj)
+        Found ___acrt_initial_locale_pointers
+          Referenced in libucrt.lib(strtox.obj)
+          Referenced in libucrt.lib(mbtowc.obj)
+          Referenced in libucrt.lib(wctomb.obj)
+          Referenced in libucrt.lib(cvt.obj)
+          Referenced in libucrt.lib(output.obj)
+          Referenced in libucrt.lib(atox.obj)
+          Referenced in libucrt.lib(_ctype.obj)
+          Referenced in libucrt.lib(tolower_toupper.obj)
+          Loaded libucrt.lib(nlsdata.obj)
+        Found ___badioinfo
+          Referenced in libucrt.lib(output.obj)
+          Referenced in libucrt.lib(fputwc.obj)
+          Referenced in libucrt.lib(fputc.obj)
+          Loaded libucrt.lib(ioinit.obj)
+        Found __set_error_mode
+          Referenced in libucrt.lib(report_runtime_error.obj)
+          Loaded libucrt.lib(set_error_mode.obj)
+        Found _wcscat_s
+          Referenced in libucrt.lib(report_runtime_error.obj)
+          Referenced in libucrt.lib(wsetlocale.obj)
+          Loaded libucrt.lib(wcscat_s.obj)
+        Found _wcscpy_s
+          Referenced in libucrt.lib(report_runtime_error.obj)
+          Referenced in libucrt.lib(environment_initialization.obj)
+          Referenced in libucrt.lib(wsetlocale.obj)
+          Loaded libucrt.lib(wcscpy_s.obj)
+        Found _wcsncpy_s
+          Referenced in libucrt.lib(report_runtime_error.obj)
+          Referenced in libucrt.lib(wsetlocale.obj)
+          Loaded libucrt.lib(wcsncpy_s.obj)
+        Found ___acrt_show_wide_message_box
+          Referenced in libucrt.lib(report_runtime_error.obj)
+          Loaded libucrt.lib(crtmbox.obj)
+        Found ___acrt_expand_narrow_argv_wildcards
+          Referenced in libucrt.lib(argv_parsing.obj)
+          Loaded libucrt.lib(argv_wildcards.obj)
+        Found ___acrt_initialize_multibyte
+          Referenced in libucrt.lib(argv_parsing.obj)
+          Referenced in libucrt.lib(environment_initialization.obj)
+          Referenced in libucrt.lib(argv_winmain.obj)
+          Referenced in libucrt.lib(initialization.obj)
+          Loaded libucrt.lib(mbctype.obj)
+        Found __ismbblead
+          Referenced in libucrt.lib(argv_parsing.obj)
+          Referenced in libucrt.lib(argv_winmain.obj)
+          Loaded libucrt.lib(ismbbyte.obj)
+        Found __acmdln
+          Referenced in libucrt.lib(argv_parsing.obj)
+          Referenced in libucrt.lib(argv_winmain.obj)
+          Loaded libucrt.lib(argv_data.obj)
+        Found ___dcrt_get_narrow_environment_from_os
+          Referenced in libucrt.lib(environment_initialization.obj)
+          Loaded libucrt.lib(get_environment_from_os.obj)
+        Found ___dcrt_set_variable_in_narrow_environment_nolock
+          Referenced in libucrt.lib(environment_initialization.obj)
+          Loaded libucrt.lib(setenv.obj)
+        Found ___acrt_lock
+          Referenced in libucrt.lib(ioinit.obj)
+          Referenced in libucrt.lib(mbctype.obj)
+          Referenced in libucrt.lib(exit.obj)
+          Referenced in libucrt.lib(wsetlocale.obj)
+          Referenced in libucrt.lib(onexit.obj)
+          Referenced in libucrt.lib(per_thread_data.obj)
+          Loaded libucrt.lib(locks.obj)
+        Found ___acrt_is_packaged_app
+          Referenced in libucrt.lib(exit.obj)
+          Referenced in libucrt.lib(crtmbox.obj)
+          Loaded libucrt.lib(winapi_thunks.obj)
+        Found ___acrt_lowio_lock_fh
+          Referenced in libucrt.lib(setmode.obj)
+          Loaded libucrt.lib(osfinfo.obj)
+        Found __fmode
+          Referenced in libucrt.lib(setmode.obj)
+          Loaded libucrt.lib(txtmode.obj)
+        Found ___acrt_locale_terminator
+          Referenced in libucrt.lib(wsetlocale.obj)
+          Loaded libucrt.lib(locale_initializer.obj)
+        Found __wctype
+          Referenced in libucrt.lib(wsetlocale.obj)
+          Loaded libucrt.lib(ctype.obj)
+        Found ___acrt_locale_initialize_ctype
+          Referenced in libucrt.lib(wsetlocale.obj)
+          Loaded libucrt.lib(initctype.obj)
+        Found ___acrt_locale_initialize_monetary
+          Referenced in libucrt.lib(wsetlocale.obj)
+          Loaded libucrt.lib(initmon.obj)
+        Found ___acrt_locale_initialize_numeric
+          Referenced in libucrt.lib(wsetlocale.obj)
+          Loaded libucrt.lib(initnum.obj)
+        Found ___acrt_locale_initialize_time
+          Referenced in libucrt.lib(wsetlocale.obj)
+          Loaded libucrt.lib(inittime.obj)
+        Found _wcscspn
+          Referenced in libucrt.lib(wsetlocale.obj)
+          Loaded libucrt.lib(wcscspn.obj)
+        Found _wcsncmp
+          Referenced in libucrt.lib(wsetlocale.obj)
+          Loaded libucrt.lib(wcsncmp.obj)
+        Found _wcspbrk
+          Referenced in libucrt.lib(wsetlocale.obj)
+          Referenced in libucrt.lib(argv_wildcards.obj)
+          Loaded libucrt.lib(wcspbrk.obj)
+        Found ___acrt_GetStringTypeA
+          Referenced in libucrt.lib(wsetlocale.obj)
+          Referenced in libucrt.lib(mbctype.obj)
+          Referenced in libucrt.lib(initctype.obj)
+          Loaded libucrt.lib(getstringtypea.obj)
+        Found ___acrt_add_locale_ref
+          Referenced in libucrt.lib(wsetlocale.obj)
+          Referenced in libucrt.lib(per_thread_data.obj)
+          Loaded libucrt.lib(locale_refcounting.obj)
+        Found ___acrt_get_qualified_locale
+          Referenced in libucrt.lib(wsetlocale.obj)
+          Loaded libucrt.lib(get_qualified_locale.obj)
+        Found ___acrt_get_qualified_locale_downlevel
+          Referenced in libucrt.lib(wsetlocale.obj)
+          Loaded libucrt.lib(getqloc_downlevel.obj)
+        Found ___acrt_lconv
+          Referenced in libucrt.lib(wsetlocale.obj)
+          Loaded libucrt.lib(localeconv.obj)
+        Found ___globallocalestatus
+          Referenced in libucrt.lib(wsetlocale.obj)
+          Referenced in libucrt.lib(locale_update.obj)
+          Referenced in libucrt.lib(mbctype.obj)
+          Referenced in libucrt.lib(locale_refcounting.obj)
+          Loaded libucrt.lib(glstatus.obj)
+        Found __recalloc
+          Referenced in libucrt.lib(onexit.obj)
+          Referenced in libucrt.lib(argv_wildcards.obj)
+          Referenced in libucrt.lib(setenv.obj)
+          Loaded libucrt.lib(recalloc.obj)
+        Found ___acrt_initialize_heap
+          Referenced in libucrt.lib(initialization.obj)
+          Loaded libucrt.lib(heap_handle.obj)
+        Found ___acrt_execute_initializers
+          Referenced in libucrt.lib(initialization.obj)
+          Loaded libucrt.lib(shared_initialization.obj)
+        Found ___acrt_initialize_new_handler
+          Referenced in libucrt.lib(initialization.obj)
+          Loaded libucrt.lib(new_handler.obj)
+        Found ___acrt_initialize_signal_handlers
+          Referenced in libucrt.lib(initialization.obj)
+          Loaded libucrt.lib(signal.obj)
+        Found __control87
+          Referenced in libucrt.lib(contrlfp.obj)
+          Loaded libucrt.lib(ieee87.obj)
+        Found _iswctype
+          Referenced in libucrt.lib(atox.obj)
+          Referenced in libucrt.lib(strtox.obj)
+          Loaded libucrt.lib(iswctype.obj)
+        Found __isctype_l
+          Referenced in libucrt.lib(atox.obj)
+          Referenced in libucrt.lib(_ctype.obj)
+          Referenced in libucrt.lib(tolower_toupper.obj)
+          Referenced in libucrt.lib(strtox.obj)
+          Loaded libucrt.lib(isctype.obj)
+        Found __isleadbyte_l
+          Referenced in libucrt.lib(tolower_toupper.obj)
+          Referenced in libucrt.lib(mbtowc.obj)
+          Referenced in libucrt.lib(isctype.obj)
+          Loaded libucrt.lib(_wctype.obj)
+        Found ___acrt_LCMapStringA
+          Referenced in libucrt.lib(tolower_toupper.obj)
+          Referenced in libucrt.lib(mbctype.obj)
+          Referenced in libucrt.lib(initctype.obj)
+          Loaded libucrt.lib(lcmapstringa.obj)
+        Found ___acrt_fp_strflt_to_string
+          Referenced in libucrt.lib(cvt.obj)
+          Loaded libucrt.lib(_fptostr.obj)
+        Found ___acrt_fltout
+          Referenced in libucrt.lib(cvt.obj)
+          Loaded libucrt.lib(cfout.obj)
+        Found ___acrt_stdio_flush_and_write_wide_nolock
+          Referenced in libucrt.lib(fputwc.obj)
+          Loaded libucrt.lib(_flsbuf.obj)
+        Found ___acrt_stdio_initializer
+          Referenced in libucrt.lib(_file.obj)
+          Loaded libucrt.lib(stdio_initializer.obj)
+        Found __fcloseall
+          Referenced in libucrt.lib(_file.obj)
+          Loaded libucrt.lib(closeall.obj)
+        Found __flushall
+          Referenced in libucrt.lib(_file.obj)
+          Loaded libucrt.lib(fflush.obj)
+        Found ___acrt_stdio_free_buffer_nolock
+          Referenced in libucrt.lib(_file.obj)
+          Loaded libucrt.lib(_freebuf.obj)
+        Found __isatty
+          Referenced in libucrt.lib(_sftbuf.obj)
+          Referenced in libucrt.lib(_flsbuf.obj)
+          Loaded libucrt.lib(isatty.obj)
+        Found _qsort
+          Referenced in libucrt.lib(argv_wildcards.obj)
+          Loaded libucrt.lib(qsort.obj)
+        Found _strncpy_s
+          Referenced in libucrt.lib(argv_wildcards.obj)
+          Loaded libucrt.lib(strncpy_s.obj)
+        Found _strpbrk
+          Referenced in libucrt.lib(argv_wildcards.obj)
+          Loaded libucrt.lib(strpbrk.obj)
+        Found __mbsdec
+          Referenced in libucrt.lib(argv_wildcards.obj)
+          Loaded libucrt.lib(mbsdec.obj)
+        Found ___acrt_multibyte_initializer
+          Referenced in libucrt.lib(mbctype.obj)
+          Loaded libucrt.lib(multibyte_initializer.obj)
+        Found __wcsnicoll
+          Referenced in libucrt.lib(setenv.obj)
+          Loaded libucrt.lib(wcsnicol.obj)
+        Found __strnicoll
+          Referenced in libucrt.lib(setenv.obj)
+          Loaded libucrt.lib(strnicol.obj)
+        Found ___acrt_DownlevelLocaleNameToLCID
+          Referenced in libucrt.lib(winapi_thunks.obj)
+          Loaded libucrt.lib(lcidtoname_downlevel.obj)
+        Found ___acrt_GetLocaleInfoA
+          Referenced in libucrt.lib(initctype.obj)
+          Referenced in libucrt.lib(initmon.obj)
+          Referenced in libucrt.lib(initnum.obj)
+          Referenced in libucrt.lib(inittime.obj)
+          Loaded libucrt.lib(getlocaleinfoa.obj)
+        Found __itow_s
+          Referenced in libucrt.lib(get_qualified_locale.obj)
+          Referenced in libucrt.lib(getqloc_downlevel.obj)
+          Loaded libucrt.lib(xtoa.obj)
+        Found __wcsicmp
+          Referenced in libucrt.lib(get_qualified_locale.obj)
+          Referenced in libucrt.lib(getqloc_downlevel.obj)
+          Loaded libucrt.lib(wcsicmp.obj)
+        Found __wcsnicmp
+          Referenced in libucrt.lib(get_qualified_locale.obj)
+          Referenced in libucrt.lib(getqloc_downlevel.obj)
+          Loaded libucrt.lib(wcsnicmp.obj)
+        Found __msize
+          Referenced in libucrt.lib(recalloc.obj)
+          Loaded libucrt.lib(msize.obj)
+        Found __realloc_base
+          Referenced in libucrt.lib(recalloc.obj)
+          Loaded libucrt.lib(realloc_base.obj)
+        Found ___get_fpsr_sse2
+          Referenced in libucrt.lib(ieee87.obj)
+          Loaded libucrt.lib(fpctrl.obj)
+        Found ___strncnt
+          Referenced in libucrt.lib(lcmapstringa.obj)
+          Loaded libucrt.lib(strncnt.obj)
+        Found _fegetenv
+          Referenced in libucrt.lib(cfout.obj)
+          Loaded libucrt.lib(fegetenv.obj)
+        Found _fesetenv
+          Referenced in libucrt.lib(cfout.obj)
+          Loaded libucrt.lib(fesetenv.obj)
+        Found _feholdexcept
+          Referenced in libucrt.lib(cfout.obj)
+          Loaded libucrt.lib(feholdexcept.obj)
+        Found __CIlog10
+          Referenced in libucrt.lib(cfout.obj)
+          Loaded libucrt.lib(log10.obj)
+        Found _ceil
+          Referenced in libucrt.lib(cfout.obj)
+          Loaded libucrt.lib(ceil_pentium4.obj)
+        Found __write
+          Referenced in libucrt.lib(_flsbuf.obj)
+          Referenced in libucrt.lib(fflush.obj)
+          Loaded libucrt.lib(write.obj)
+        Found __lseeki64
+          Referenced in libucrt.lib(_flsbuf.obj)
+          Loaded libucrt.lib(lseek.obj)
+        Found ___acrt_stdio_allocate_buffer_nolock
+          Referenced in libucrt.lib(_flsbuf.obj)
+          Loaded libucrt.lib(_getbuf.obj)
+        Found _fclose
+          Referenced in libucrt.lib(closeall.obj)
+          Loaded libucrt.lib(fclose.obj)
+        Found __commit
+          Referenced in libucrt.lib(fflush.obj)
+          Loaded libucrt.lib(commit.obj)
+        Found ___acrt_CompareStringW
+          Referenced in libucrt.lib(wcsnicol.obj)
+          Loaded libucrt.lib(comparestringw.obj)
+        Found __strnicmp
+          Referenced in libucrt.lib(strnicol.obj)
+          Loaded libucrt.lib(strnicmp.obj)
+        Found ___acrt_CompareStringA
+          Referenced in libucrt.lib(strnicol.obj)
+          Loaded libucrt.lib(comparestringa.obj)
+        Found __towlower_l
+          Referenced in libucrt.lib(wcsicmp.obj)
+          Referenced in libucrt.lib(wcsnicmp.obj)
+          Loaded libucrt.lib(towlower.obj)
+        Found __getfpcontrolword
+          Referenced in libucrt.lib(fegetenv.obj)
+          Loaded libucrt.lib(_fenvutils.obj)
+        Found ___use_sse2_mathfcns
+          Referenced in libucrt.lib(log10.obj)
+          Referenced in libucrt.lib(ceil_pentium4.obj)
+          Loaded libucrt.lib(mathfcns.obj)
+        Found __log10_pentium4
+          Referenced in libucrt.lib(log10.obj)
+          Loaded libucrt.lib(log10_pentium4.obj)
+        Found __infinity
+          Referenced in libucrt.lib(log10.obj)
+          Loaded libucrt.lib(87tran.obj)
+        Found __indefinite
+          Referenced in libucrt.lib(log10.obj)
+          Loaded libucrt.lib(87disp.obj)
+        Found ___fastflag
+          Referenced in libucrt.lib(log10.obj)
+          Loaded libucrt.lib(fp_flags.obj)
+        Found __DEFAULT_CW_in_mem
+          Referenced in libucrt.lib(log10.obj)
+          Loaded libucrt.lib(common.obj)
+        Found __startOneArgErrorHandling
+          Referenced in libucrt.lib(log10.obj)
+          Referenced in libucrt.lib(common.obj)
+          Loaded libucrt.lib(genexcep.obj)
+        Found ___libm_error_support
+          Referenced in libucrt.lib(ceil_pentium4.obj)
+          Referenced in libucrt.lib(log10_pentium4.obj)
+          Loaded libucrt.lib(libm_error.obj)
+        Found __ceil_default
+          Referenced in libucrt.lib(ceil_pentium4.obj)
+          Loaded libucrt.lib(ceil.obj)
+        Found __putwch_nolock
+          Referenced in libucrt.lib(write.obj)
+          Loaded libucrt.lib(putwch.obj)
+        Found __close
+          Referenced in libucrt.lib(fclose.obj)
+          Loaded libucrt.lib(close.obj)
+        Found "void __cdecl __acrt_stdio_free_stream(class __crt_stdio_stream)" (?__acrt_stdio_free_stream@@YAXV__crt_stdio_stream@@@Z)
+          Referenced in libucrt.lib(fclose.obj)
+          Loaded libucrt.lib(stream.obj)
+        Found ___ascii_strnicmp
+          Referenced in libucrt.lib(strnicmp.obj)
+          Loaded libucrt.lib(_strnicm.obj)
+        Found ___acrt_LCMapStringW
+          Referenced in libucrt.lib(towlower.obj)
+          Loaded libucrt.lib(lcmapstringw.obj)
+        Found ___acrt_tran_sse2_initializer
+          Referenced in libucrt.lib(mathfcns.obj)
+          Loaded libucrt.lib(sse2_initializer.obj)
+        Found ___acrt_log10_table_t
+          Referenced in libucrt.lib(log10_pentium4.obj)
+          Loaded libucrt.lib(log10_tables.obj)
+        Found __powhlp
+          Referenced in libucrt.lib(87tran.obj)
+          Loaded libucrt.lib(powhlp.obj)
+        Found __87except
+          Referenced in libucrt.lib(genexcep.obj)
+          Loaded libucrt.lib(87except.obj)
+        Found __frnd
+          Referenced in libucrt.lib(ceil.obj)
+          Referenced in libucrt.lib(powhlp.obj)
+          Loaded libucrt.lib(frnd.obj)
+        Found __except1
+          Referenced in libucrt.lib(ceil.obj)
+          Loaded libucrt.lib(fpexcept.obj)
+        Found __sptype
+          Referenced in libucrt.lib(ceil.obj)
+          Loaded libucrt.lib(util.obj)
+        Found ___dcrt_lowio_initialize_console_output
+          Referenced in libucrt.lib(putwch.obj)
+          Loaded libucrt.lib(initcon.obj)
+        Found __fpclass
+          Referenced in libucrt.lib(powhlp.obj)
+          Loaded libucrt.lib(ieeemisc.obj)
+        Found ___dcrt_console_output_terminator
+          Referenced in libucrt.lib(initcon.obj)
+          Loaded libucrt.lib(console_output_initializer.obj)
+        Found _ldexp
+          Referenced in libucrt.lib(ieeemisc.obj)
+          Loaded libucrt.lib(ldexp.obj)
+        Found _nextafter
+          Referenced in libucrt.lib(ieeemisc.obj)
+          Loaded libucrt.lib(nextafter.obj)
+        Found _nexttoward
+          Referenced in libucrt.lib(nextafter.obj)
+          Loaded libucrt.lib(nexttoward.obj)
+        Found __fperrraise
+          Referenced in libucrt.lib(nexttoward.obj)
+          Loaded libucrt.lib(_test.obj)
+        Found _fegetexceptflag
+          Referenced in libucrt.lib(_test.obj)
+          Loaded libucrt.lib(fegetexceptflag.obj)
+        Found _fesetexceptflag
+          Referenced in libucrt.lib(_test.obj)
+          Loaded libucrt.lib(fesetexceptflag.obj)
+        Found _fetestexcept
+          Referenced in libucrt.lib(fesetexceptflag.obj)
+          Loaded libucrt.lib(fetestexcept.obj)
+      Searching glew32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\opengl32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\glu32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winmm.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+        Found __imp__UnhandledExceptionFilter@4
+          Referenced in LIBCMT.lib(gs_report.obj)
+          Referenced in LIBCMT.lib(utility_desktop.obj)
+          Referenced in libucrt.lib(invalid_parameter.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__SetUnhandledExceptionFilter@4
+          Referenced in LIBCMT.lib(gs_report.obj)
+          Referenced in LIBCMT.lib(utility_desktop.obj)
+          Referenced in libucrt.lib(invalid_parameter.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetCurrentProcess@0
+          Referenced in LIBCMT.lib(gs_report.obj)
+          Referenced in libucrt.lib(exit.obj)
+          Referenced in libucrt.lib(invalid_parameter.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__TerminateProcess@8
+          Referenced in LIBCMT.lib(gs_report.obj)
+          Referenced in libucrt.lib(exit.obj)
+          Referenced in libucrt.lib(invalid_parameter.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found _IsProcessorFeaturePresent@4
+          Referenced in libucrt.lib(invalid_parameter.obj)
+          Referenced in libucrt.lib(mathfcns.obj)
+          Referenced in LIBCMT.lib(gs_report.obj)
+          Referenced in LIBCMT.lib(utility_desktop.obj)
+          Referenced in LIBCMT.lib(_cpu_disp_.obj)
+          Referenced in libucrt.lib(abort.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__QueryPerformanceCounter@4
+          Referenced in LIBCMT.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetCurrentProcessId@0
+          Referenced in LIBCMT.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetCurrentThreadId@0
+          Referenced in LIBCMT.lib(gs_support.obj)
+          Referenced in libucrt.lib(per_thread_data.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetSystemTimeAsFileTime@4
+          Referenced in LIBCMT.lib(gs_support.obj)
+          Referenced in libucrt.lib(winapi_thunks.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__InitializeSListHead@4
+          Referenced in LIBCMT.lib(tncleanup.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__IsDebuggerPresent@0
+          Referenced in LIBCMT.lib(utility_desktop.obj)
+          Referenced in libucrt.lib(invalid_parameter.obj)
+          Referenced in libucrt.lib(crtmbox.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetStartupInfoW@4
+          Referenced in LIBCMT.lib(utility_desktop.obj)
+          Referenced in libucrt.lib(ioinit.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetModuleHandleW@4
+          Referenced in LIBCMT.lib(utility_desktop.obj)
+          Referenced in libucrt.lib(exit.obj)
+          Referenced in libucrt.lib(free_base.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__InterlockedPushEntrySList@8
+          Referenced in libvcruntime.lib(std_type_info.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__InterlockedFlushSList@4
+          Referenced in libvcruntime.lib(std_type_info.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found _RtlUnwind@16
+          Referenced in libvcruntime.lib(_exsup4_.obj)
+          Referenced in libvcruntime.lib(_exsup_.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetLastError@0
+          Referenced in libucrt.lib(close.obj)
+          Referenced in libucrt.lib(getlocaleinfoa.obj)
+          Referenced in libucrt.lib(write.obj)
+          Referenced in libucrt.lib(lseek.obj)
+          Referenced in libucrt.lib(commit.obj)
+          Referenced in libucrt.lib(per_thread_data.obj)
+          Referenced in libucrt.lib(winapi_thunks.obj)
+          Referenced in libucrt.lib(osfinfo.obj)
+          Referenced in libucrt.lib(signal.obj)
+          Referenced in libvcruntime.lib(per_thread_data.obj)
+          Referenced in libvcruntime.lib(winapi_downlevel.obj)
+          Referenced in libucrt.lib(free_base.obj)
+          Referenced in libucrt.lib(wctomb.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__SetLastError@4
+          Referenced in libvcruntime.lib(per_thread_data.obj)
+          Referenced in libucrt.lib(per_thread_data.obj)
+          Referenced in libucrt.lib(winapi_thunks.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__EnterCriticalSection@4
+          Referenced in libvcruntime.lib(locks.obj)
+          Referenced in libucrt.lib(_file.obj)
+          Referenced in libucrt.lib(locks.obj)
+          Referenced in libucrt.lib(osfinfo.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__LeaveCriticalSection@4
+          Referenced in libvcruntime.lib(locks.obj)
+          Referenced in libucrt.lib(_file.obj)
+          Referenced in libucrt.lib(locks.obj)
+          Referenced in libucrt.lib(osfinfo.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__DeleteCriticalSection@4
+          Referenced in libucrt.lib(closeall.obj)
+          Referenced in libvcruntime.lib(locks.obj)
+          Referenced in libucrt.lib(_file.obj)
+          Referenced in libucrt.lib(locks.obj)
+          Referenced in libucrt.lib(osfinfo.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__InitializeCriticalSectionAndSpinCount@8
+          Referenced in libvcruntime.lib(winapi_downlevel.obj)
+          Referenced in libucrt.lib(winapi_thunks.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__TlsAlloc@0
+          Referenced in libvcruntime.lib(winapi_downlevel.obj)
+          Referenced in libucrt.lib(winapi_thunks.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__TlsGetValue@4
+          Referenced in libvcruntime.lib(winapi_downlevel.obj)
+          Referenced in libucrt.lib(winapi_thunks.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__TlsSetValue@8
+          Referenced in libvcruntime.lib(winapi_downlevel.obj)
+          Referenced in libucrt.lib(winapi_thunks.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__TlsFree@4
+          Referenced in libvcruntime.lib(winapi_downlevel.obj)
+          Referenced in libucrt.lib(winapi_thunks.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__FreeLibrary@4
+          Referenced in libvcruntime.lib(winapi_downlevel.obj)
+          Referenced in libucrt.lib(exit.obj)
+          Referenced in libucrt.lib(winapi_thunks.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetProcAddress@8
+          Referenced in libvcruntime.lib(winapi_downlevel.obj)
+          Referenced in libucrt.lib(exit.obj)
+          Referenced in libucrt.lib(free_base.obj)
+          Referenced in libucrt.lib(winapi_thunks.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__LoadLibraryExW@12
+          Referenced in libvcruntime.lib(winapi_downlevel.obj)
+          Referenced in libucrt.lib(winapi_thunks.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetStdHandle@4
+          Referenced in libucrt.lib(report_runtime_error.obj)
+          Referenced in libucrt.lib(ioinit.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__WriteFile@20
+          Referenced in libucrt.lib(report_runtime_error.obj)
+          Referenced in libucrt.lib(write.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetModuleFileNameW@12
+          Referenced in libucrt.lib(report_runtime_error.obj)
+          Referenced in libucrt.lib(argv_parsing.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetModuleFileNameA@12
+          Referenced in libucrt.lib(argv_parsing.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__MultiByteToWideChar@24
+          Referenced in libucrt.lib(lcmapstringa.obj)
+          Referenced in libucrt.lib(comparestringa.obj)
+          Referenced in libucrt.lib(environment_initialization.obj)
+          Referenced in libucrt.lib(wsetlocale.obj)
+          Referenced in libucrt.lib(mbtowc.obj)
+          Referenced in libucrt.lib(getstringtypea.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__WideCharToMultiByte@32
+          Referenced in libucrt.lib(getlocaleinfoa.obj)
+          Referenced in libucrt.lib(write.obj)
+          Referenced in libucrt.lib(environment_initialization.obj)
+          Referenced in libucrt.lib(wctomb.obj)
+          Referenced in libucrt.lib(get_environment_from_os.obj)
+          Referenced in libucrt.lib(lcmapstringa.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__ExitProcess@4
+          Referenced in libucrt.lib(exit.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetModuleHandleExW@12
+          Referenced in libucrt.lib(exit.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetACP@0
+          Referenced in libucrt.lib(wsetlocale.obj)
+          Referenced in libucrt.lib(mbctype.obj)
+          Referenced in libucrt.lib(get_qualified_locale.obj)
+          Referenced in libucrt.lib(getqloc_downlevel.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__HeapFree@12
+          Referenced in libucrt.lib(free_base.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__HeapAlloc@12
+          Referenced in libucrt.lib(malloc_base.obj)
+          Referenced in libucrt.lib(calloc_base.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetCurrentThread@0
+          Referenced in libucrt.lib(per_thread_data.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetFileType@4
+          Referenced in libucrt.lib(ioinit.obj)
+          Referenced in libucrt.lib(osfinfo.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__OutputDebugStringA@4
+          Referenced in libucrt.lib(crtmbox.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__OutputDebugStringW@4
+          Referenced in libucrt.lib(crtmbox.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__WaitForSingleObjectEx@12
+          Referenced in libucrt.lib(crtmbox.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__CreateThread@24
+          Referenced in libucrt.lib(crtmbox.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__FindClose@4
+          Referenced in libucrt.lib(argv_wildcards.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__FindFirstFileExA@24
+          Referenced in libucrt.lib(argv_wildcards.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__FindFirstFileExW@24
+          Referenced in libucrt.lib(argv_wildcards.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__FindNextFileA@8
+          Referenced in libucrt.lib(argv_wildcards.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__FindNextFileW@8
+          Referenced in libucrt.lib(argv_wildcards.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__IsValidCodePage@4
+          Referenced in libucrt.lib(mbctype.obj)
+          Referenced in libucrt.lib(get_qualified_locale.obj)
+          Referenced in libucrt.lib(getqloc_downlevel.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetOEMCP@0
+          Referenced in libucrt.lib(mbctype.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetCPInfo@8
+          Referenced in libucrt.lib(mbctype.obj)
+          Referenced in libucrt.lib(initctype.obj)
+          Referenced in libucrt.lib(comparestringa.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetCommandLineA@0
+          Referenced in libucrt.lib(argv_data.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetCommandLineW@0
+          Referenced in libucrt.lib(argv_data.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetEnvironmentStringsW@0
+          Referenced in libucrt.lib(get_environment_from_os.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__FreeEnvironmentStringsW@4
+          Referenced in libucrt.lib(get_environment_from_os.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__SetEnvironmentVariableA@8
+          Referenced in libucrt.lib(setenv.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__SetEnvironmentVariableW@8
+          Referenced in libucrt.lib(setenv.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetDateFormatW@24
+          Referenced in libucrt.lib(winapi_thunks.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetTimeFormatW@24
+          Referenced in libucrt.lib(winapi_thunks.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__CompareStringW@24
+          Referenced in libucrt.lib(winapi_thunks.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__LCMapStringW@24
+          Referenced in libucrt.lib(winapi_thunks.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetLocaleInfoW@16
+          Referenced in libucrt.lib(winapi_thunks.obj)
+          Referenced in libucrt.lib(getqloc_downlevel.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__IsValidLocale@8
+          Referenced in libucrt.lib(winapi_thunks.obj)
+          Referenced in libucrt.lib(getqloc_downlevel.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetUserDefaultLCID@0
+          Referenced in libucrt.lib(winapi_thunks.obj)
+          Referenced in libucrt.lib(getqloc_downlevel.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__EnumSystemLocalesW@8
+          Referenced in libucrt.lib(winapi_thunks.obj)
+          Referenced in libucrt.lib(getqloc_downlevel.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__SetStdHandle@8
+          Referenced in libucrt.lib(osfinfo.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetStringTypeW@16
+          Referenced in libucrt.lib(getstringtypea.obj)
+          Referenced in libucrt.lib(iswctype.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetProcessHeap@0
+          Referenced in libucrt.lib(heap_handle.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__SetConsoleCtrlHandler@8
+          Referenced in libucrt.lib(signal.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__HeapSize@12
+          Referenced in libucrt.lib(msize.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__HeapReAlloc@16
+          Referenced in libucrt.lib(realloc_base.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetConsoleCP@0
+          Referenced in libucrt.lib(write.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetConsoleMode@8
+          Referenced in libucrt.lib(write.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__SetFilePointerEx@20
+          Referenced in libucrt.lib(lseek.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__FlushFileBuffers@4
+          Referenced in libucrt.lib(commit.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__EncodePointer@4
+          Referenced in libucrt.lib(libm_error.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__DecodePointer@4
+          Referenced in libucrt.lib(libm_error.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__WriteConsoleW@20
+          Referenced in libucrt.lib(putwch.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__RaiseException@16
+          Referenced in libucrt.lib(fpexcept.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__CreateFileW@28
+          Referenced in libucrt.lib(initcon.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+      Searching debug\bass.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\LIBCMT.lib:
+        Found __IsNonwritableInCurrentImage
+          Referenced in libvcruntime.lib(_chandler4_.obj)
+          Loaded LIBCMT.lib(pesect.obj)
+        Found __aulldvrm
+          Referenced in libucrt.lib(cfout.obj)
+          Referenced in libucrt.lib(xtoa.obj)
+          Referenced in libvcruntime.lib(undname.obj)
+          Referenced in libucrt.lib(output.obj)
+          Referenced in libucrt.lib(atox.obj)
+          Referenced in libucrt.lib(strtox.obj)
+          Loaded LIBCMT.lib(ulldvrm.obj)
+        Found "const type_info::`vftable'" (??_7type_info@@6B@)
+          Referenced in libvcruntime.lib(undname.obj)
+          Loaded LIBCMT.lib(std_type_info_static.obj)
+        Found __SEH_epilog4_GS
+          Referenced in libucrt.lib(terminate.obj)
+          Referenced in libucrt.lib(exit.obj)
+          Referenced in libucrt.lib(signal.obj)
+          Loaded LIBCMT.lib(_sehprolg4gs_.obj)
+        Found __allmul
+          Referenced in libucrt.lib(atox.obj)
+          Referenced in libucrt.lib(strtox.obj)
+          Referenced in libucrt.lib(cfout.obj)
+          Loaded LIBCMT.lib(llmul.obj)
+        Found __alldvrm
+          Referenced in libucrt.lib(cvt.obj)
+          Loaded LIBCMT.lib(lldvrm.obj)
+        Found __aullshr
+          Referenced in libucrt.lib(cvt.obj)
+          Loaded LIBCMT.lib(ullshr.obj)
+        Found __alloca_probe_16
+          Referenced in libucrt.lib(getstringtypea.obj)
+          Referenced in libucrt.lib(lcmapstringa.obj)
+          Referenced in libucrt.lib(getlocaleinfoa.obj)
+          Referenced in libucrt.lib(comparestringa.obj)
+          Loaded LIBCMT.lib(alloca16.obj)
+        Found __allshl
+          Referenced in libucrt.lib(cfout.obj)
+          Loaded LIBCMT.lib(llshl.obj)
+        Found "void __cdecl operator delete(void *,unsigned int)" (??3@YAXPAXI@Z)
+          Referenced in LIBCMT.lib(std_type_info_static.obj)
+          Loaded LIBCMT.lib(delete_scalar_size.obj)
+        Found "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+          Referenced in LIBCMT.lib(delete_scalar_size.obj)
+          Loaded LIBCMT.lib(delete_scalar.obj)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\libcpmt.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\libvcruntime.lib:
+        Found _memcpy
+          Referenced in libucrt.lib(cfout.obj)
+          Referenced in libucrt.lib(output.obj)
+          Referenced in libucrt.lib(mbctype.obj)
+          Referenced in libucrt.lib(get_environment_from_os.obj)
+          Referenced in libucrt.lib(signal.obj)
+          Loaded libvcruntime.lib(memcpy.obj)
+        Found _memcmp
+          Referenced in libucrt.lib(wsetlocale.obj)
+          Loaded libvcruntime.lib(_memcmp_.obj)
+        Found _memmove
+          Referenced in libucrt.lib(cvt.obj)
+          Referenced in libucrt.lib(_fptostr.obj)
+          Loaded libvcruntime.lib(memmove.obj)
+        Found _strrchr
+          Referenced in libucrt.lib(cvt.obj)
+          Loaded libvcruntime.lib(strrchr.obj)
+        Found _strchr
+          Referenced in libucrt.lib(setenv.obj)
+          Loaded libvcruntime.lib(strchr.obj)
+        Found _wcschr
+          Referenced in libucrt.lib(setenv.obj)
+          Referenced in libucrt.lib(get_qualified_locale.obj)
+          Loaded libvcruntime.lib(wcschr.obj)
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86\libucrt.lib:
+        Found _free
+          Referenced in LIBCMT.lib(delete_scalar.obj)
+          Loaded libucrt.lib(free.obj)
+      Searching glew32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\opengl32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\glu32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winmm.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+      Searching debug\bass.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\LIBCMT.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\libcpmt.lib:
+  
+  Finished searching libraries
+  
+  Finished pass 1
+  
+  
+  Searching libraries
+      Searching glew32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\opengl32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\glu32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winmm.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+      Searching debug\bass.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\LIBCMT.lib:
+        Found __load_config_used
+          Loaded LIBCMT.lib(loadcfg.obj)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\libcpmt.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\libvcruntime.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86\libucrt.lib:
+      Searching glew32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\opengl32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\glu32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winmm.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+      Searching debug\bass.lib:
+  
+  Finished searching libraries
+  
+  Invoking rc.exe:
+   /v
+   /x
+   /fo
+   "C:\Users\Patu\AppData\Local\Temp\lnk{636C01B9-7449-43CB-B663-5F68CD8BFEA5}.tmp"
+   "C:\Users\Patu\AppData\Local\Temp\lnk{2F1C5B41-2383-4FC2-8139-86299ECE95A1}.tmp"
+  Microsoft (R) Windows (R) Resource Compiler Version 6.3.9600.17336
+  
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  
+  Creating C:\Users\Patu\AppData\Local\Temp\lnk{636C01B9-7449-43CB-B663-5F68CD8BFEA5}.tmp
+  
+  Using codepage 1250 as default
+  
+  C:\Users\Patu\AppData\Local\Temp\lnk{2F1C5B41-2383-4FC2-8139-86299ECE95A1}.tmp.
+  Writing 24:1,	lang:0x409,	size 381
+  
+  Invoking cvtres.exe:
+   /machine:x86
+   /verbose
+   /out:"C:\Users\Patu\AppData\Local\Temp\lnk{E0BE106C-A786-4A1C-90D2-5A3841F65174}.tmp"
+   /readonly
+   "C:\Users\Patu\AppData\Local\Temp\lnk{636C01B9-7449-43CB-B663-5F68CD8BFEA5}.tmp"
+  Microsoft (R) Windows Resource To Object Converter Version 14.00.24210.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  adding resource. type:MANIFEST, name:1, language:0x0409, flags:0x30, size:381
+  
+  Unused libraries:
+    glew32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\glu32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\OLDNAMES.lib
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\libcpmt.lib
+  
+  Starting pass 2
+       * linker generated manifest res *
+       ftol.obj
+       main_win_deb.obj
+       intro.obj
+       ext.obj
+       opengl32.lib(OPENGL32.dll)
+       opengl32.lib(OPENGL32.dll)
+       opengl32.lib(OPENGL32.dll)
+       opengl32.lib(OPENGL32.dll)
+       opengl32.lib(OPENGL32.dll)
+       opengl32.lib(OPENGL32.dll)
+       opengl32.lib(OPENGL32.dll)
+       opengl32.lib(OPENGL32.dll)
+       opengl32.lib(OPENGL32.dll)
+       opengl32.lib(OPENGL32.dll)
+       opengl32.lib(OPENGL32.dll)
+       opengl32.lib(OPENGL32.dll)
+       winmm.lib(WINMM.dll)
+       winmm.lib(WINMM.dll)
+       winmm.lib(WINMM.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       gdi32.lib(GDI32.dll)
+       gdi32.lib(GDI32.dll)
+       gdi32.lib(GDI32.dll)
+       gdi32.lib(GDI32.dll)
+       gdi32.lib(GDI32.dll)
+       gdi32.lib(GDI32.dll)
+       bass.lib(bass.dll)
+       bass.lib(bass.dll)
+       bass.lib(bass.dll)
+       bass.lib(bass.dll)
+       bass.lib(bass.dll)
+       bass.lib(bass.dll)
+       bass.lib(bass.dll)
+       bass.lib(bass.dll)
+       bass.lib(bass.dll)
+       bass.lib(bass.dll)
+       bass.lib(bass.dll)
+       bass.lib(bass.dll)
+       bass.lib(bass.dll)
+       bass.lib(bass.dll)
+       LIBCMT.lib(_cpu_disp_.obj)
+       LIBCMT.lib(_initsect_.obj)
+       LIBCMT.lib(_sehprolg4_.obj)
+       LIBCMT.lib(_sehprolg4gs_.obj)
+       LIBCMT.lib(_secchk_.obj)
+       LIBCMT.lib(lldvrm.obj)
+       LIBCMT.lib(llmul.obj)
+       LIBCMT.lib(llshl.obj)
+       LIBCMT.lib(ulldvrm.obj)
+       LIBCMT.lib(ullshr.obj)
+       LIBCMT.lib(alloca16.obj)
+       LIBCMT.lib(chkstk.obj)
+       LIBCMT.lib(gs_cookie.obj)
+       LIBCMT.lib(gs_report.obj)
+       LIBCMT.lib(gs_support.obj)
+       LIBCMT.lib(checkcfg.obj)
+       LIBCMT.lib(guard_support.obj)
+       LIBCMT.lib(loadcfg.obj)
+       LIBCMT.lib(pesect.obj)
+       LIBCMT.lib(dyn_tls_dtor.obj)
+       LIBCMT.lib(dyn_tls_init.obj)
+       LIBCMT.lib(matherr_detection.obj)
+       LIBCMT.lib(ucrt_detection.obj)
+       LIBCMT.lib(argv_mode.obj)
+       LIBCMT.lib(commit_mode.obj)
+       LIBCMT.lib(default_local_stdio_options.obj)
+       LIBCMT.lib(denormal_control.obj)
+       LIBCMT.lib(env_mode.obj)
+       LIBCMT.lib(file_mode.obj)
+       LIBCMT.lib(fltused.obj)
+       LIBCMT.lib(invalid_parameter_handler.obj)
+       LIBCMT.lib(matherr.obj)
+       LIBCMT.lib(new_mode.obj)
+       LIBCMT.lib(thread_locale.obj)
+       LIBCMT.lib(std_type_info_static.obj)
+       LIBCMT.lib(tncleanup.obj)
+       LIBCMT.lib(delete_scalar.obj)
+       LIBCMT.lib(delete_scalar_size.obj)
+       LIBCMT.lib(exe_winmain.obj)
+       LIBCMT.lib(initializers.obj)
+       LIBCMT.lib(utility.obj)
+       LIBCMT.lib(utility_desktop.obj)
+       LIBCMT.lib(default_precision.obj)
+       libvcruntime.lib(_exsup4_.obj)
+       libvcruntime.lib(_exsup_.obj)
+       libvcruntime.lib(_chandler4_.obj)
+       libvcruntime.lib(_memcmp_.obj)
+       libvcruntime.lib(memcpy.obj)
+       libvcruntime.lib(memmove.obj)
+       libvcruntime.lib(memset.obj)
+       libvcruntime.lib(strchr.obj)
+       libvcruntime.lib(strrchr.obj)
+       libvcruntime.lib(jbcxrval.obj)
+       libvcruntime.lib(wcschr.obj)
+       libvcruntime.lib(std_type_info.obj)
+       libvcruntime.lib(initialization.obj)
+       libvcruntime.lib(locks.obj)
+       libvcruntime.lib(per_thread_data.obj)
+       libvcruntime.lib(winapi_downlevel.obj)
+       libvcruntime.lib(purevirt.obj)
+       libvcruntime.lib(purevirt_data.obj)
+       libvcruntime.lib(undname.obj)
+       libucrt.lib(ieeemisc.obj)
+       libucrt.lib(mathfcns.obj)
+       libucrt.lib(log10_tables.obj)
+       libucrt.lib(libm_error.obj)
+       libucrt.lib(ieee87.obj)
+       libucrt.lib(frnd.obj)
+       libucrt.lib(fpctrl.obj)
+       libucrt.lib(ceil.obj)
+       libucrt.lib(87except.obj)
+       libucrt.lib(mbsdec.obj)
+       libucrt.lib(ismbbyte.obj)
+       libucrt.lib(console_output_initializer.obj)
+       libucrt.lib(setenv.obj)
+       libucrt.lib(get_environment_from_os.obj)
+       libucrt.lib(environment_initialization.obj)
+       libucrt.lib(putwch.obj)
+       libucrt.lib(initcon.obj)
+       libucrt.lib(_test.obj)
+       libucrt.lib(_fenvutils.obj)
+       libucrt.lib(util.obj)
+       libucrt.lib(powhlp.obj)
+       libucrt.lib(nexttoward.obj)
+       libucrt.lib(nextafter.obj)
+       libucrt.lib(matherr.obj)
+       libucrt.lib(log10_pentium4.obj)
+       libucrt.lib(log10.obj)
+       libucrt.lib(ldexp.obj)
+       libucrt.lib(genexcep.obj)
+       libucrt.lib(fpexcept.obj)
+       libucrt.lib(fetestexcept.obj)
+       libucrt.lib(fesetexceptflag.obj)
+       libucrt.lib(fesetenv.obj)
+       libucrt.lib(feholdexcept.obj)
+       libucrt.lib(fegetexceptflag.obj)
+       libucrt.lib(fegetenv.obj)
+       libucrt.lib(contrlfp.obj)
+       libucrt.lib(common.obj)
+       libucrt.lib(ceil_pentium4.obj)
+       libucrt.lib(87tran.obj)
+       libucrt.lib(87disp.obj)
+       libucrt.lib(_strnicm.obj)
+       libucrt.lib(wcspbrk.obj)
+       libucrt.lib(wcsnicol.obj)
+       libucrt.lib(wcsnicmp.obj)
+       libucrt.lib(wcsncpy_s.obj)
+       libucrt.lib(wcsncmp.obj)
+       libucrt.lib(wcsicmp.obj)
+       libucrt.lib(wcscspn.obj)
+       libucrt.lib(wcscpy_s.obj)
+       libucrt.lib(wcscat_s.obj)
+       libucrt.lib(strpbrk.obj)
+       libucrt.lib(strnlen.obj)
+       libucrt.lib(strnicol.obj)
+       libucrt.lib(strnicmp.obj)
+       libucrt.lib(strncpy_s.obj)
+       libucrt.lib(strncnt.obj)
+       libucrt.lib(strcpy_s.obj)
+       libucrt.lib(qsort.obj)
+       libucrt.lib(_sftbuf.obj)
+       libucrt.lib(_getbuf.obj)
+       libucrt.lib(_freebuf.obj)
+       libucrt.lib(_flsbuf.obj)
+       libucrt.lib(_file.obj)
+       libucrt.lib(stream.obj)
+       libucrt.lib(printf_count_output.obj)
+       libucrt.lib(output.obj)
+       libucrt.lib(ncommode.obj)
+       libucrt.lib(fputwc.obj)
+       libucrt.lib(fputc.obj)
+       libucrt.lib(fileno.obj)
+       libucrt.lib(fflush.obj)
+       libucrt.lib(fclose.obj)
+       libucrt.lib(closeall.obj)
+       libucrt.lib(onexit.obj)
+       libucrt.lib(initterm.obj)
+       libucrt.lib(exit.obj)
+       libucrt.lib(argv_winmain.obj)
+       libucrt.lib(argv_wildcards.obj)
+       libucrt.lib(argv_parsing.obj)
+       libucrt.lib(argv_data.obj)
+       libucrt.lib(abort.obj)
+       libucrt.lib(terminate.obj)
+       libucrt.lib(signal.obj)
+       libucrt.lib(set_error_mode.obj)
+       libucrt.lib(invalid_parameter.obj)
+       libucrt.lib(exception_filter.obj)
+       libucrt.lib(errno.obj)
+       libucrt.lib(crtmbox.obj)
+       libucrt.lib(mbctype.obj)
+       libucrt.lib(write.obj)
+       libucrt.lib(txtmode.obj)
+       libucrt.lib(setmode.obj)
+       libucrt.lib(osfinfo.obj)
+       libucrt.lib(lseek.obj)
+       libucrt.lib(isatty.obj)
+       libucrt.lib(ioinit.obj)
+       libucrt.lib(commit.obj)
+       libucrt.lib(close.obj)
+       libucrt.lib(wsetlocale.obj)
+       libucrt.lib(nlsdata.obj)
+       libucrt.lib(locale_update.obj)
+       libucrt.lib(locale_refcounting.obj)
+       libucrt.lib(localeconv.obj)
+       libucrt.lib(lcmapstringw.obj)
+       libucrt.lib(lcmapstringa.obj)
+       libucrt.lib(lcidtoname_downlevel.obj)
+       libucrt.lib(inittime.obj)
+       libucrt.lib(initnum.obj)
+       libucrt.lib(initmon.obj)
+       libucrt.lib(initctype.obj)
+       libucrt.lib(glstatus.obj)
+       libucrt.lib(get_qualified_locale.obj)
+       libucrt.lib(getstringtypea.obj)
+       libucrt.lib(getqloc_downlevel.obj)
+       libucrt.lib(getlocaleinfoa.obj)
+       libucrt.lib(ctype.obj)
+       libucrt.lib(comparestringw.obj)
+       libucrt.lib(comparestringa.obj)
+       libucrt.lib(winapi_thunks.obj)
+       libucrt.lib(shared_initialization.obj)
+       libucrt.lib(report_runtime_error.obj)
+       libucrt.lib(per_thread_data.obj)
+       libucrt.lib(locks.obj)
+       libucrt.lib(initialization.obj)
+       libucrt.lib(stdio_initializer.obj)
+       libucrt.lib(sse2_initializer.obj)
+       libucrt.lib(multibyte_initializer.obj)
+       libucrt.lib(locale_initializer.obj)
+       libucrt.lib(recalloc.obj)
+       libucrt.lib(realloc_base.obj)
+       libucrt.lib(new_mode.obj)
+       libucrt.lib(new_handler.obj)
+       libucrt.lib(msize.obj)
+       libucrt.lib(malloc_base.obj)
+       libucrt.lib(heap_handle.obj)
+       libucrt.lib(free_base.obj)
+       libucrt.lib(free.obj)
+       libucrt.lib(calloc_base.obj)
+       libucrt.lib(_wctype.obj)
+       libucrt.lib(_fptostr.obj)
+       libucrt.lib(_ctype.obj)
+       libucrt.lib(xtoa.obj)
+       libucrt.lib(wctomb.obj)
+       libucrt.lib(towlower.obj)
+       libucrt.lib(tolower_toupper.obj)
+       libucrt.lib(strtox.obj)
+       libucrt.lib(mbtowc.obj)
+       libucrt.lib(iswctype.obj)
+       libucrt.lib(isctype.obj)
+       libucrt.lib(fp_flags.obj)
+       libucrt.lib(cvt.obj)
+       libucrt.lib(cfout.obj)
+       libucrt.lib(atox.obj)
+  Finished pass 2
+  Outside.vcxproj -> E:\!!Scene\rw2018\Outside\.\debug\Outside.exe
+  Outside.vcxproj -> E:\!!Scene\rw2018\Outside\.\debug\4verts_deb.pdb (Full PDB)

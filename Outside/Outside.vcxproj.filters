@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ext.cpp" />
+    <ClCompile Include="src\intro.cpp" />
+    <ClCompile Include="src\main_win_rel.cpp" />
+    <ClCompile Include="src\shaders\shaders.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main_win_deb.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\config.h" />
+    <ClInclude Include="src\ext.h" />
+    <ClInclude Include="src\fp.h" />
+    <ClInclude Include="src\intro.h" />
+    <ClInclude Include="src\system.h" />
+    <ClInclude Include="debug\bass.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="src\clinkster.h">
+      <Filter>synth</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shaders\shaders.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="synth">
+      <UniqueIdentifier>{83b54e57-a69c-4566-be87-2406098e31f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{eb18cbc1-fa90-46a9-b521-2b6b85df2c01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{43f7942e-1b54-450e-87f1-58fae32dee71}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="debug\bass.lib">
+      <Filter>Debug</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="clinkster\src\ftol.obj">
+      <Filter>synth</Filter>
+    </Object>
+    <Object Include="clinkster\temp\clinkster.obj">
+      <Filter>synth</Filter>
+    </Object>
+    <Object Include="src\ftol.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\shaders\fragment_shader2.glsl.frag">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

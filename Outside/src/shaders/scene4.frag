@@ -247,4 +247,6 @@ s1_ob = texelFetch(B2, ivec2(3, 0), 0).rgb;
 
 void main() {    
     mainImage(); //C1 = vec4(1., 0., 1., 0.);
+        C0 = texelFetch(B0, ivec2(gl_FragCoord.xy), 0);
+    C2 = texelFetch(B2, ivec2(gl_FragCoord.xy), 0);
 }

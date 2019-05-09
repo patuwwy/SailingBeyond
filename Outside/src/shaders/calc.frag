@@ -13,7 +13,7 @@ void main() {
     float ck = cos(iTime * .1) * .1;
     int index = 0;
 
-    if (store.y != 0 || store.x > 6) {        
+    if (store.y != 0 || store.x > 10) {        
         if (U[1].x < 10.) {
             C2.r = noiseLayers(vec3(uv * 10., 2.));
             C2.g = noiseFF(uv * 6.);
@@ -21,7 +21,7 @@ void main() {
             discard;
         }
     } else {
-        
+            
         // calculate time in following timeline
 
         // R = normalize time
@@ -61,16 +61,20 @@ void main() {
         if (iTime > PATTERN_TIME * 22.) s1_ob = vec3(138., 24.5 , iTime + 1020 + keyTime.r * 3.);
 
         
-        if (store.x == 0) {
-            
+        switch(store.x) {
+            case 0:
                 vec4[] CAMS = vec4[](
                     vec4(0., iTime - 15., 20., 91.2),
                     vec4(PATTERN_TIME * 3., iTime - 15., 22., 91.2),
                     vec4(PATTERN_TIME * 7., iTime * 2. - 38., 19.9, 91.3),
+
                     vec4(PATTERN_TIME * 8., iTime * 2. - 38., 19.9, 91.3),
-					vec4(PATTERN_TIME * 10., iTime * 2. - 38. - keyTime.g, 19.9 , 91.3),
+
+                    vec4(PATTERN_TIME * 10., iTime * 2. - 38. - keyTime.g, 19.9 , 91.3),
+                  
                     vec4(PATTERN_TIME * 12., -1. - keyTime.g * 27., 2.,-1.),
                     vec4(PATTERN_TIME * 13., 6. - keyTime.g * 28, 4., 5.),                    
+                    //vec4(PATTERN_TIME * 13., -3. - keyTime.g * 27 - 3., 1., -4.),                    
                     vec4(PATTERN_TIME * 14., -3. - keyTime.g * 27 - 13., 20., -10.),    
                     vec4(PATTERN_TIME * 15., 21. - keyTime.g * 29. ,  3., 11.),
                     vec4(PATTERN_TIME * 16, 21. - keyTime.g * 29. , 4., 1.),
@@ -80,26 +84,30 @@ void main() {
                     vec4(PATTERN_TIME * 22., 149., 38.5 , iTime + 1020.),
                     vec4(PATTERN_TIME * 24., 139., 24.5 , iTime + 1020.),
                     vec4(PATTERN_TIME * 32., keyTime.g * .25 - 30., 0., keyTime.g * 1.2),
+                    //vec4(PATTERN_TIME * 22., 139., 27.5 , iTime + 1020.),
                     vec4(1e9)
                 );
                 
                 for (int i = 0; i < (CAMS.length() - 1); i++) {
                     if (CAMS[i + 1].x > iTime) {
-                        C2.rgb = CAMS[i].yzw;
+                        C2.rgb = CAMS[i].yzw;     
+                   
                         break;
                     }
                 }
                 
-        }
-		if (store.x == 1) {
-            
+                break;
+            case 2:
                 vec4[] LAT = vec4[](
                     vec4(0., iTime + 30., 20., 91.2),
                     vec4(PATTERN_TIME * 3., iTime + 30., 10., 91.2),
                     vec4(PATTERN_TIME * 7., s1_ob),
-                    vec4(PATTERN_TIME * 12., s1_ob),
+                    //vec4(PATTERN_TIME * 7., s1_ob),
+                     vec4(PATTERN_TIME * 12., s1_ob),
+                     //vec4(PATTERN_TIME * 18., vec3(-iTime * 2., 43., 1300.) + vec3(-80., -40., 40.)),
                     vec4(PATTERN_TIME * 20., vec3(-iTime * 2., 43., 1300.) + vec3(80., -40., 40.)),
-					vec4(PATTERN_TIME * 21., vec3(-iTime * 2., 43., 2100.) - vec3(-20., 190., 0.)),
+                vec4(PATTERN_TIME * 21., vec3(-iTime * 2., 43., 2100.) - vec3(-20., 190., 0.)),
+                    //vec4(PATTERN_TIME * 22., 137., 25. , iTime + 1040.),
                     vec4(PATTERN_TIME * 22., 137., 25. , iTime + 1040.),
                     vec4(PATTERN_TIME * 24., 137., 25. , iTime + 1040.),
                     vec4(PATTERN_TIME * 32., keyTime.g * .2, 0., keyTime.g - 10.),
@@ -113,47 +121,61 @@ void main() {
                     }
                 }
                 
-        }
-        if (store.x == 3) { 
+                break;
+
+// object position scene 1            
+
+            case 3:
                 C2.rgb = s1_ob;
-        }
-        if (store.x == 4) { 
+                break;
+
+// time
+
+            case 4:
+
                 C2.rgb = keyTime;
-        }
-        if (store.x == 5) { 
-            
-                vec4 K[] = vec4[](                    
+                break;
+// fade 
+            case 5:
+                
+                vec4 K[] = vec4[](
+                    
                     vec4(0., 0., 1., 0.01),
                     vec4(0.02, 0., 0., 0.9),
-                    vec4(PATTERN_TIME * 3. - 2., 0., 1., 2.),
+                    //vec4(1., 1., 0., 1.),
+                    //vec4(2., 1., 0., 1.),
+                    //vec4(4., 0, 1., 1.),
+                    //vec4(6., 0., 0., 1.),
+                    vec4(PATTERN_TIME * 3 - 2., 0., 1., 2.),
                     vec4(PATTERN_TIME * 3., 0., 0., 1.),
-                    vec4(PATTERN_TIME * 12. - 2., 1., 1., 2.),
-                    vec4(PATTERN_TIME * 12., 1., 0., .5),
-					vec4(PATTERN_TIME * 13. - .5, 0., 1., .5),
-					vec4(PATTERN_TIME * 13., 0., 0., .5),
-                    vec4(PATTERN_TIME * 14. - .5, 0., 1., .5),
-                    vec4(PATTERN_TIME * 14., 0., 0., .5),
-					vec4(PATTERN_TIME * 15. - .5, 0., 1., .5),
-					vec4(PATTERN_TIME * 15., 0., 0., .5),
-                    vec4(PATTERN_TIME * 16. - .5, 1., 1., .5),
-                    vec4(PATTERN_TIME * 16., 1., 0., .5),
-                    vec4(PATTERN_TIME * 18. - .5, 0., 1., .5),
-                    vec4(PATTERN_TIME * 18., 0., 0., 5.),
-                    vec4(PATTERN_TIME * 20. - 2., 0., 1., 2.),
-                    vec4(PATTERN_TIME * 20., 0., 0., .5),
-                    vec4(PATTERN_TIME * 21. - .5, 0., 1., .5),
-                    vec4(PATTERN_TIME * 21., 0., 0., .5),
-                    vec4(PATTERN_TIME * 22. - .5, 0., 1., .5),
-                    vec4(PATTERN_TIME * 22., 0., 0., .5),
-					vec4(PATTERN_TIME * 24. - .5, 0., 1., .5),
-                    vec4(PATTERN_TIME * 24., 0., 0., .5),
-                    vec4(PATTERN_TIME * 28. - 4., 1., 1., 4.),
-                    vec4(PATTERN_TIME * 28., 1., 0., 1.),
-                    vec4(PATTERN_TIME * 32. - 4., 1., 1., 4.),
-                    vec4(PATTERN_TIME * 32., 1., 0., 1.),
-                    vec4(PATTERN_TIME * 40. - 8., 0., 1., 8.),
-                    vec4(PATTERN_TIME * 44. - 4., 1., 1., 4.),
-                    vec4(PATTERN_TIME * 99., 0., 1., 1.),
+                    vec4(PATTERN_TIME * 12 - 2., 1., 1., 2.),
+                    vec4(PATTERN_TIME * 12, 1., 0., .5),
+vec4(PATTERN_TIME * 13 - .5, 0., 1., .5),
+vec4(PATTERN_TIME * 13, 0., 0., .5),
+                    vec4(PATTERN_TIME * 14 - .5, 0., 1., .5),
+                    vec4(PATTERN_TIME * 14, 0., 0., .5),
+vec4(PATTERN_TIME * 15 - .5, 0., 1., .5),
+vec4(PATTERN_TIME * 15, 0., 0., .5),
+                    vec4(PATTERN_TIME * 16 - .5, 1., 1., .5),
+                    vec4(PATTERN_TIME * 16, 1., 0., .5),
+                    vec4(PATTERN_TIME * 18 - .5, 0., 1., .5),
+                    vec4(PATTERN_TIME * 18, 0., 0., 5.),
+                    vec4(PATTERN_TIME * 20 - 2., 0., 1., 2.),
+                    vec4(PATTERN_TIME * 20, 0., 0., .5),
+                    vec4(PATTERN_TIME * 21 - .5, 0., 1., .5),
+                    vec4(PATTERN_TIME * 21, 0., 0., .5),
+                    vec4(PATTERN_TIME * 22 - .5, 0., 1., .5),
+                    vec4(PATTERN_TIME * 22, 0., 0., .5),
+ vec4(PATTERN_TIME * 24 - .5, 0., 1., .5),
+                    vec4(PATTERN_TIME * 24, 0., 0., .5),
+                    vec4(PATTERN_TIME * 28 - 4., 1., 1., 4.),
+                    vec4(PATTERN_TIME * 28, 1., 0., 1.),
+                    vec4(PATTERN_TIME * 32 - 4., 1., 1., 4.),
+                    vec4(PATTERN_TIME * 32, 1., 0., 1.),
+                    vec4(PATTERN_TIME * 40 - 8., 0., 1., 8.),
+                    vec4(PATTERN_TIME * 44 - 4, 1., 1., 4.),
+                    vec4(PATTERN_TIME * 99, 0., 1., 1.),
+                    //vec4(PATTERN_TIME * 32 + 3., 1., 0., 4.5),
                     vec4(120, 0., 0., 1.)
                 );
 
@@ -165,13 +187,14 @@ void main() {
                         break;
                     }
                 }
-        }
-		if (store.x == 6) { 
-        
-            
+                break;
+// postproc
+            case 6:
                 vec4 PP[] = vec4[](
+                    // time, g - alpha factor, r - bloom. b - pixel index;
                     
                     vec4(0., 1., 1., 1.),
+                    //vec4(PATTERN_TIME * 12, 1., 1., 1.),
                     vec4(PATTERN_TIME * 12, 3., 1., 2.),
                     vec4(PATTERN_TIME * 20., 0., 0., .0),
                     vec4(PATTERN_TIME * 28, 1., 1.0, 1.0),
@@ -185,14 +208,12 @@ void main() {
                     }
                 }
                 C2.a = 1.;
-                if (iTime > PATTERN_TIME * 12. && iTime < PATTERN_TIME * 28.) {
-					C2.a = 0.;
-				}
+                if (iTime > PATTERN_TIME * 12. && iTime < PATTERN_TIME * 28.) C2.a = 0.;
 
-        }
-        if (store.x > 6) {
+                break;
+            default:
                 discard;
-                
+                break;
         }
 
     }

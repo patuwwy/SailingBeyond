@@ -1,7 +1,7 @@
 #version 430
 
 layout (location=0) out vec4 C0;
-layout (location=1) out vec4 C1;
+//layout (location=1) out vec4 C1;
 layout (location=2) out vec4 C2;
 layout (location=3) uniform vec4 p[3];
 
@@ -128,9 +128,13 @@ void main()
     //C0 = bloom;    
 //C0 += vec4(0.) + hash12((uv + p[0].x) * 1000.) * .1 ;
 //C0 = vec4(1.) * gl_FragCoord.x / p[0].y;
-        //C0.rgb = texture(B2, ).rgb;//pow(C1.rgb, vec3(1.2));
-  //C0 = texelFetch(B2, ivec2(4,0),0);
+        //C0 = texture(B2, ouv);
+  //C0 = texelFetch(B1, ivec2(gl_FragCoord),0);
  // C0 = texelFetch(B1, ivec2(gl_FragCoord.xy), 0).aaaa;
 //C0 = vec4(alpha);
+
+    //C0 = texelFetch(B0, ivec2(gl_FragCoord),0);
+    //C1 = texelFetch(B1, ivec2(gl_FragCoord),0);
+    //C2 = texelFetch(B2, ivec2(gl_FragCoord),0);
 }   
 

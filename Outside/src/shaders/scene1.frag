@@ -161,13 +161,13 @@ CI
         
         if (tr.mirror > 0.) {
             rd = reflect(rd, sn);
-            //ro += rd * .02;
-            tr = trace(ro, rd);
-            tr.hp = ro + rd * tr.d;
+            tr.hp += rd * .02;
+            tr = trace(tr.hp, rd);
+            tr.hp = tr.hp + rd * tr.d;
             vec3 refl;
             if (tr.d < FAR) {
                 sn = normals(tr.hp);	
-                sh = softShadow(tr.hp, ro + light, 13.);    
+                sh = softShadow(tr.hp, tr.hp + light, 13.);    
                 ao = getAO(tr.hp, sn, 2.6);
                 refl = doColor(tr.hp, rd, sn, light, tr).rgb * ao * sh * 2.;
             } else {
@@ -211,6 +211,8 @@ void main() {
     } else {
         loader();
     }
-    //C1 = texelFetch(B2, ivec2(gl_FragCoord.xy), 0).gggg;
+    C0 = texelFetch(B0, ivec2(gl_FragCoord.xy), 0);
+    C2 = texelFetch(B2, ivec2(gl_FragCoord.xy), 0);
     //C0 = vec4(1., 1., 0., 1.);
+    
 }

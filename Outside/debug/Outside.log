@@ -1490,26 +1490,26 @@ LINK : warning LNK4044: unrecognized option '/CRINKLER'; ignored
    /v
    /x
    /fo
-   "C:\Users\Patu\AppData\Local\Temp\lnk{636C01B9-7449-43CB-B663-5F68CD8BFEA5}.tmp"
-   "C:\Users\Patu\AppData\Local\Temp\lnk{2F1C5B41-2383-4FC2-8139-86299ECE95A1}.tmp"
+   "C:\Users\Patu\AppData\Local\Temp\lnk{26E8D2CA-0FD4-4555-A055-708D015032B9}.tmp"
+   "C:\Users\Patu\AppData\Local\Temp\lnk{CF6E9C18-B234-4356-AAF8-81861A465FC0}.tmp"
   Microsoft (R) Windows (R) Resource Compiler Version 6.3.9600.17336
   
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
   
-  Creating C:\Users\Patu\AppData\Local\Temp\lnk{636C01B9-7449-43CB-B663-5F68CD8BFEA5}.tmp
+  Creating C:\Users\Patu\AppData\Local\Temp\lnk{26E8D2CA-0FD4-4555-A055-708D015032B9}.tmp
   
   Using codepage 1250 as default
   
-  C:\Users\Patu\AppData\Local\Temp\lnk{2F1C5B41-2383-4FC2-8139-86299ECE95A1}.tmp.
+  C:\Users\Patu\AppData\Local\Temp\lnk{CF6E9C18-B234-4356-AAF8-81861A465FC0}.tmp.
   Writing 24:1,	lang:0x409,	size 381
   
   Invoking cvtres.exe:
    /machine:x86
    /verbose
-   /out:"C:\Users\Patu\AppData\Local\Temp\lnk{E0BE106C-A786-4A1C-90D2-5A3841F65174}.tmp"
+   /out:"C:\Users\Patu\AppData\Local\Temp\lnk{46855930-E726-4470-88C4-41F5E3623260}.tmp"
    /readonly
-   "C:\Users\Patu\AppData\Local\Temp\lnk{636C01B9-7449-43CB-B663-5F68CD8BFEA5}.tmp"
+   "C:\Users\Patu\AppData\Local\Temp\lnk{26E8D2CA-0FD4-4555-A055-708D015032B9}.tmp"
   Microsoft (R) Windows Resource To Object Converter Version 14.00.24210.0
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
@@ -1898,5 +1898,5 @@ LINK : warning LNK4044: unrecognized option '/CRINKLER'; ignored
        libucrt.lib(cfout.obj)
        libucrt.lib(atox.obj)
   Finished pass 2
-  Outside.vcxproj -> E:\!!Scene\rw2018\Outside\.\debug\Outside.exe
-  Outside.vcxproj -> E:\!!Scene\rw2018\Outside\.\debug\4verts_deb.pdb (Full PDB)
+  Outside.vcxproj -> F:\repos\rw2018\Outside\.\debug\Outside.exe
+  Outside.vcxproj -> F:\repos\rw2018\Outside\.\debug\4verts_deb.pdb (Full PDB)

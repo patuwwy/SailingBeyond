@@ -89,4 +89,6 @@ void main() {
     mainImage();
     //C1 = texelFetch(B2, ivec2(gl_FragCoord.xy), 0).gggg;
     //C0 = vec4(1., 1., 0., 1.);
+        C0 = texelFetch(B0, ivec2(gl_FragCoord.xy), 0);
+    C2 = texelFetch(B2, ivec2(gl_FragCoord.xy), 0);
 }

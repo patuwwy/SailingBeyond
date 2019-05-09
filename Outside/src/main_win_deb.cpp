@@ -91,7 +91,7 @@ void introRestart()
     start_time = timeGetTime();
     BASS_Init(-1, 44100, 0, 0, NULL);
     BASS_Start();
-    hWav = BASS_StreamCreateFile(false, "D:/!!Scene/rw2018/Outside/clinkster/music.wav", 0, 0, BASS_MP3_SETPOS | BASS_SAMPLE_LOOP);
+    hWav = BASS_StreamCreateFile(false, "../clinkster/music.wav", 0, 0, BASS_MP3_SETPOS | BASS_SAMPLE_LOOP);
     BASS_ChannelPlay(hWav, true);
     dwStreamLen = BASS_ChannelGetLength(hWav, BASS_POS_BYTE);
     fSecondsTotal = BASS_ChannelBytes2Seconds(hWav, dwStreamLen);

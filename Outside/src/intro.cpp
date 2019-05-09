@@ -66,7 +66,7 @@ void intro_init()
 	char* bufferInit;
 	HANDLE handle;
 
-	handle = CreateFile("D:/!!Scene/rw2018/Outside/src/shaders/common_init.frag", GENERIC_READ, FILE_SHARE_READ, nullptr, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, nullptr);
+	handle = CreateFile("../src/shaders/common_init.frag", GENERIC_READ, FILE_SHARE_READ, nullptr, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, nullptr);
 	if (handle == INVALID_HANDLE_VALUE) {
 		MessageBoxA(nullptr, "../src/shaders/common_init.frag", "/common_init.frag", MB_ICONERROR | MB_OK); return 0;
 	}
@@ -84,7 +84,7 @@ void intro_init()
 
 	/// first shader
 
-	handle = CreateFile("D:/!!Scene/rw2018/Outside/src/shaders/calc.frag", GENERIC_READ, FILE_SHARE_READ, nullptr, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, nullptr);
+	handle = CreateFile("../src/shaders/calc.frag", GENERIC_READ, FILE_SHARE_READ, nullptr, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, nullptr);
 	if (handle == INVALID_HANDLE_VALUE) {
 		MessageBoxA(nullptr, "../src/shaders/calc.frag", "/calc.frag", MB_ICONERROR | MB_OK); return 0;
 	}
@@ -100,7 +100,7 @@ void intro_init()
 	
 	/// second shader
 	
-	handle = CreateFile("D:/!!Scene/rw2018/Outside/src/shaders/scene1.frag", GENERIC_READ, FILE_SHARE_READ, nullptr, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, nullptr);
+	handle = CreateFile("../src/shaders/scene1.frag", GENERIC_READ, FILE_SHARE_READ, nullptr, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, nullptr);
 	if (handle == INVALID_HANDLE_VALUE) {
 		MessageBoxA(nullptr, "../src/shaders/scene1.frag", "/scene1.frag", MB_ICONERROR | MB_OK); return 0;
 	}
@@ -115,7 +115,7 @@ void intro_init()
 
 
 
-	handle = CreateFile("D:/!!Scene/rw2018/Outside/src/shaders/scene2.frag", GENERIC_READ, FILE_SHARE_READ, nullptr, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, nullptr);
+	handle = CreateFile("../src/shaders/scene2.frag", GENERIC_READ, FILE_SHARE_READ, nullptr, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, nullptr);
 	if (handle == INVALID_HANDLE_VALUE) {
 		MessageBoxA(nullptr, "../src/shaders/scene2.frag", "/scene2.frag", MB_ICONERROR | MB_OK); return 0;
 	}
@@ -130,7 +130,7 @@ void intro_init()
 
 
 
-	handle = CreateFile("D:/!!Scene/rw2018/Outside/src/shaders/scene3.frag", GENERIC_READ, FILE_SHARE_READ, nullptr, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, nullptr);
+	handle = CreateFile("../src/shaders/scene3.frag", GENERIC_READ, FILE_SHARE_READ, nullptr, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, nullptr);
 	if (handle == INVALID_HANDLE_VALUE) {
 		MessageBoxA(nullptr, "../src/shaders/scene3.frag", "/scene3.frag", MB_ICONERROR | MB_OK); return 0;
 	}
@@ -144,7 +144,7 @@ void intro_init()
 	shaderScene_3 = glCreateShaderProgramv(GL_FRAGMENT_SHADER, 2, shadersArray);
 
 
-	handle = CreateFile("D:/!!Scene/rw2018/Outside/src/shaders/scene4.frag", GENERIC_READ, FILE_SHARE_READ, nullptr, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, nullptr);
+	handle = CreateFile("../src/shaders/scene4.frag", GENERIC_READ, FILE_SHARE_READ, nullptr, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, nullptr);
 	if (handle == INVALID_HANDLE_VALUE) {
 		MessageBoxA(nullptr, "../src/shaders/scene4.frag", "/scene4.frag", MB_ICONERROR | MB_OK); return 0;
 	}
@@ -157,7 +157,7 @@ void intro_init()
 	shadersArray[1] = buffer;
 	shaderScene_4 = glCreateShaderProgramv(GL_FRAGMENT_SHADER, 2, shadersArray);
 
-	handle = CreateFile("D:/!!Scene/rw2018/Outside/src/shaders/scene5.frag", GENERIC_READ, FILE_SHARE_READ, nullptr, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, nullptr);
+	handle = CreateFile("../src/shaders/scene5.frag", GENERIC_READ, FILE_SHARE_READ, nullptr, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, nullptr);
 	if (handle == INVALID_HANDLE_VALUE) {
 		MessageBoxA(nullptr, "../src/shaders/scene5.frag", "/scene5.frag", MB_ICONERROR | MB_OK); return 0;
 	}
@@ -172,7 +172,7 @@ void intro_init()
 
 	/// vertex
 
-	handle = CreateFile("D:/!!Scene/rw2018/Outside/src/shaders/vertex.vert", GENERIC_READ, FILE_SHARE_READ, nullptr, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, nullptr);
+	handle = CreateFile("../src/shaders/vertex.vert", GENERIC_READ, FILE_SHARE_READ, nullptr, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, nullptr);
 	if (handle == INVALID_HANDLE_VALUE) {
 		MessageBoxA(nullptr, "../src/shaders/vertex.vert", "/vertex.vert", MB_ICONERROR | MB_OK); return 0;
 	}
@@ -187,7 +187,7 @@ void intro_init()
 	
 	/// postproc
 	
-	handle = CreateFile("D:/!!Scene/rw2018/Outside/src/shaders/post_processing_shader.glsl.frag", GENERIC_READ, FILE_SHARE_READ, nullptr, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, nullptr);
+	handle = CreateFile("../src/shaders/post_processing_shader.glsl.frag", GENERIC_READ, FILE_SHARE_READ, nullptr, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, nullptr);
 	if (handle == INVALID_HANDLE_VALUE) {
 		MessageBoxA(nullptr, "../src/shaders/post_processing_shader.glsl.frag", "/post_processing_shader.glsl.frag", MB_ICONERROR | MB_OK); return 0;
 	}

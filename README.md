@@ -13,12 +13,12 @@ A PC intro released at [Riverwash demoparty](https://riverwash.org/pl) ([Pouet](
 
 ## Links
 
-- [Pouet](url=https://www.pouet.net/prod.php?which=77899)
+- [Pouet](https://www.pouet.net/prod.php?which=77899)
 - [YouTube](https://www.youtube.com/watch?v=oITx9xMrAcM)
 
 ## Third-party tools and libraries used
 * [Crinkler](http://crinkler.net) for linking + packing an executable.
-* [Clinkster](https://www.pouet.net/prod.php?which=61592) synth.
+* [Clinkster](https://www.pouet.net/prod.php?which=61592) music synth.
 
 ## Additional info
 

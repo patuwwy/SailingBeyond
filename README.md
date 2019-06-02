@@ -25,3 +25,6 @@ A PC intro released at [Riverwash demoparty](https://riverwash.org/pl) ([Pouet](
 Based on [isystem4k framework](http://www.iquilezles.org/code/isystem1k4k/isystem1k4k.htm)
 
 Executable filesize is 13kb.
+
+License
+MIT for intro code. All third-party dependencies have their own licenses, go check them out.

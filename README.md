@@ -26,5 +26,5 @@ Based on [isystem4k framework](http://www.iquilezles.org/code/isystem1k4k/isyste
 
 Executable filesize is 13kb.
 
-License
+## License
 MIT for intro code. All third-party dependencies have their own licenses, go check them out.
